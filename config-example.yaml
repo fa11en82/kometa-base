@@ -173,9 +173,6 @@ libraries:                       # This is called out once within the config.yml
       assets_for_all: true
 playlist_files:
   - file: config/playlistcollection.yml
-  - default: playlist                 # This is a file within Kometa's defaults folder
-    template_variables:
-      libraries: Movies, TV Shows, Anime       # list of libraries that you want the PMM Defaults playlists to look at
   # see the wiki for how to use local files, folders, URLs, or files from git
 settings:
   run_order:
