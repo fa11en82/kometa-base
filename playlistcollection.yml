@@ -1,0 +1,202 @@
+######################################################
+#                Playlist Collections                #
+######################################################
+
+external_templates:
+ - file: config/mytemplates.yml
+
+templates:
+  playlist:
+    conditionals:
+      trakt_list:
+        conditions:
+          - key: arrow
+            value: https://trakt.tv/users/donxy/lists/arrowverse
+          - key: mcu
+            value: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe
+          - key: dcau
+            value: https://trakt.tv/users/donxy/lists/dc-animated-series-universe
+          - key: pokemon
+            value: https://trakt.tv/users/munch54/lists/pokemon-watching-order
+          - key: startrek
+            value: https://trakt.tv/users/goodevilgenius/lists/star-trek-chronology
+          - key: starwars
+            value: https://trakt.tv/users/xrayblaster/lists/star-wars-chronological-order
+          - key: dragonball
+            value: https://trakt.tv/users/grawler/lists/dragon-ball-in-order
+          - key: sao
+            value: https://trakt.tv/users/fa11en82/lists/sword-art-online-chronological-order?sort=rank,asc
+          - key: gundam
+            value: https://trakt.tv/users/crystaltrickster/lists/gundam-series?sort=rank,asc
+          - key: babylon
+            value: https://trakt.tv/users/b1ubb/lists/babylon-5-timeline?sort=rank,asc
+          - key: jrrt
+            value: https://trakt.tv/users/oya-kesh/lists/middle-earth?sort=rank,asc
+          - key: wdu
+            value: https://trakt.tv/users/sami_svk/lists/the-walking-dead-timeline?sort=rank,asc
+          - key: avp
+            value: https://trakt.tv/users/fs-corrupt/lists/alien-predator-timeline?sort=rank,asc
+          - key: stargate
+            value: https://trakt.tv/users/stackguard/lists/stargate?sort=rank,asc
+    default:
+      libraries: Movies, TV Shows, Anime
+      item_radarr_tag_<<key>>: <<item_radarr_tag>>
+      item_sonarr_tag_<<key>>: <<item_sonarr_tag>>
+      trakt_list_<<key>>: <<trakt_list>>
+      url_poster_<<key>>: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/playlist/<<mapping_name_encoded>>.jpg
+      name_<<key>>: <<mapping_name>>
+      sync_to_users_<<key>>: <<sync_to_users>>
+      exclude_users_<<key>>: <<exclude_users>>
+      delete_playlist_<<key>>: <<delete_playlist>>
+    optional:
+      - use_<<key>>
+      - item_radarr_tag
+      - item_sonarr_tag
+      - ignore_ids
+      - ignore_imdb_ids
+      - sync_to_users
+      - exclude_users
+      - delete_playlist
+    run_definition:
+      - <<use_<<key>>>>
+    ignore_ids: <<ignore_ids>>
+    ignore_imdb_ids: <<ignore_imdb_ids>>
+    item_radarr_tag: <<item_radarr_tag_<<key>>>>
+    item_sonarr_tag: <<item_sonarr_tag_<<key>>>>
+    trakt_list: <<trakt_list_<<key>>>>
+    cache_builders: 1
+    sync_to_users: <<sync_to_users_<<key>>>>
+    exclude_users: <<exclude_users_<<key>>>>
+    delete_playlist: <<delete_playlist_<<key>>>>
+    sync_mode: sync
+    libraries: <<libraries>>
+    url_poster: <<url_poster_<<key>>>>
+    summary: <<summary_<<key>>>>
+    name: <<name_<<key>>>>
+
+
+playlists:
+  Arrowverse (Timeline Order):
+    variables:
+      key: arrow
+    template:
+      - name: playlist
+        summary_arrow: The Arrowverse is an American superhero media franchise and a shared universe that is centered on various interconnected television series based on DC Comics superhero characters, primarily airing on The CW as well as web series on CW Seed.
+      - name: arr
+
+
+  Alien & Predator (Timeline Order):
+    variables:
+      key: avp
+    template:
+      - name: playlist
+        summary_avp: The Alien and Predator universe is a series of films and other media that depicts a series of violent encounters between humans and the Xenomorphs (ferocious, endoparasitoid creatures) as well as the Predators (technolofically advanced warriors that hunt for sport and honor).
+      - name: arr
+    
+
+  Babylon 5 (Timeline Order):
+    variables:
+      key: babylon
+    template:
+      - name: playlist
+        summary_babylon: The Babylon 5 chronological order of the storyline for the episodes as well as the movies, as indicated by J. Michael Straczynski.
+      - name: arr
+
+
+  DC Animated Universe (Timeline Order):
+    variables:
+      key: dcau
+    template:
+      - name: playlist
+        summary_dcau: "The DC Animated Universe (DCAU) is a shared universe consisting primarily of superhero-based animated television series, produced by Warner Bros. Animation and based on characters that appear in American comic books published by DC Comics. The first TV series set in the DCAU was Batman: The Animated Series, which premiered in 1992; the last TV series was Justice League Unlimited, which ended its run in 2006."
+      - name: arr
+
+
+  Dragon Ball (Timeline Order):
+    variables:
+      key: dragonball
+    template:
+      - name: playlist
+        summary_dragonball: Dragon Ball follows the adventures of an extraordinarily strong young boy named Goku as he searches for the seven dragon balls. These balls, when combined, can grant the owner any one wish he desires. Along the way he makes many new friends, and enemies, and he trains to become the strongest fighter in the world.
+      - name: arr
+
+
+  Marvel Cinematic Universe (Timeline Order):
+    variables:
+      key: mcu
+    template:
+      - name: playlist
+        summary_mcu: The Marvel Cinematic Universe (MCU) is a collection of movies and television series that tell a singular narrative related to Marvel characters, settings and stories. The MCU is a product from Disney and Marvel that brings us heroes from Black Panther and Doctor Strange to Spider-Man and Iron Man.
+      - name: arr
+
+
+  Middle Earth (Timeline Order):
+    variables:
+      key: jrrt
+    template:
+      - name: playlist
+        summary_jrrt: The Middle Earth Universe Chonology.
+      - name: arr
+
+
+  Mobile Suit Gundam (Timeline Order):
+    variables:
+      key: gundam
+    template:
+      - name: playlist
+        summary_gundam: Gundam franchise sorted by timeline, then by release date within timelines. Order sometimes altered to put sequels together.
+      - name: arr
+
+
+  Pokémon (Timeline Order):
+    variables:
+      key: pokemon
+    template:
+      - name: playlist
+        summary_pokemon: Ash Ketchum, his yellow pet Pikachu, and his human friends explore a world of powerful creatures. Ten-year-old Ash aspires to be the greatest Pokémon (pocket monster) trainer in the world. To do this, he enlists the help of many friends, and his own Pokémon, Pikachu.
+      - name: arr
+
+
+  Star Trek (Timeline Order):
+    variables:
+      key: startrek
+    template:
+      - name: playlist
+        summary_startrek: All Star Trek canon in chronological order, as found on thestartrekchronologyproject.blogspot.com. Includes animated series. Will be updated with new shows as they come out. Does not include Kelvinverse movies.
+      - name: arr
+
+
+  Star Wars (Timeline Order):
+    variables:
+      key: starwars
+    template:
+      - name: playlist
+        summary_starwars: A long time ago in a galaxy far, far away, a farm boy on a desert planet dreamed of joining a rebellion and saving a princess from a dark lord, and thus, one of the most successful cinematic sagas of all time was born. What began with one space opera in 1977 quickly grew into a media empire that included toys, comic books, video games, TV series, and memorabilia in every possible form. Today, more than 40 years after it first arrived, Star Wars remains a global pop culture phenomenon, and the story still isn't over.
+      - name: arr
+
+
+  Stargate (Timeline Order):
+    variables:
+      key: stargate
+    template:
+      - name: playlist
+        summary_stargate: Stargate is a military science fiction media franchise based on the film directed by Roland Emmerich, which he co-wrote with producer Dean Devlin. The franchise is based on the idea of an alien Einstein–Rosen bridge device (the Stargate) that enables nearly instantaneous travel across the cosmos.
+      - name: arr
+
+
+  Sword Art Online (Timeline Order):
+    variables:
+      key: sao
+    template:
+      - name: playlist
+        summary_sao: In the near future video games are played in virtual reality using a system referred to as nerve gear. Kazuto Kirigaya known online as Kirito, logs in for the launch of a new VRMMORPG (Virtual Reality Massive Multiplayer Online Role Playing Game) only to discover that he and every other person who has joined are stuck within the game with the only option to win or die. This list follows the chronological events of the show, movie, and it's spin-offs.
+      - name: arr
+
+
+  The Walking Dead Universe (Timeline Order):
+    variables:
+      key: wdu
+    template:
+      - name: playlist
+        summary_wdu: The Walking Dead franchise is an American zombie apocalypse media franchise and a shared universe that is centered on a number of interconnected television series based on the comic book of the same name. Set in the fictional universe, the franchise has developed with crossover plot elements, settings, and characters.
+      - name: arr

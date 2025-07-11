@@ -1,0 +1,228 @@
+## This file is a template remove the .template to use the file
+
+libraries:                       # This is called out once within the config.yml file
+  Movies:                        # Each library must match the Plex library name
+    collection_files:
+    - default: basic                 # This is a file within the defaults folder in the Repository
+    - default: imdb                  # This is a file within the defaults folder in the Repository
+      template_variables:
+        use_lowest: false
+        visible_library_top: true
+        visible_home_top: true
+        visible_shared_top: true
+    - default: universe
+      template_variables:
+        collection_order: release
+        append_data:
+          clancy: Tom Clancy's Ryanverse
+          new_dc: DC Universe (Reboot)
+        trakt_list_askew: https://trakt.tv/users/jes-wan/lists/view-askewniverse?sort=released,desc
+        trakt_list_avp: https://trakt.tv/users/liudvikas/lists/aliens-predators-movies?sort=released,asc
+        trakt_list_clancy: https://trakt.tv/users/sjgibson/lists/tom-clancy?sort=rank,asc
+        mdblist_list_dca: https://mdblist.com/lists/mmozeiko/dc-animated-universe
+        trakt_list_dcu: https://trakt.tv/users/fa11en82/lists/dceu-dc-extended-universe?sort=released,asc
+        mdblist_list_marvel: https://mdblist.com/lists/fa11en82/in-association-with-marvel
+        mdblist_list_mcu: https://mdblist.com/lists/mmozeiko/marvel-cinematic-universe
+        mdblist_list_middle: https://mdblist.com/lists/aaron713/middle-earth
+        trakt_list_new_dc: https://trakt.tv/users/defqonforce/lists/dc-universe-dcu-gunnverse?sort=rank,asc
+        trakt_list_trek: https://trakt.tv/users/dgw/lists/star-trek-canon?sort=rank,asc
+        mdblist_list_xmen: https://mdblist.com/lists/mmozeiko/marvel-cinematic-universe
+    - default: seasonal
+      template_variables:
+        emoji: ''
+        collection_section: '025'
+    - default: based
+      template_variables:
+        collection_order: release.desc
+    - default: separator_award
+    - default: oscars
+      template_variables:
+        use_year_collections: false
+        collection_order: release.desc
+    - default: bafta
+      template_variables:
+        use_year_collections: false
+        collection_order: release.desc
+    - default: nfr
+      template_variables:
+        use_year_collections: false
+        collection_order: release.desc
+    - default: franchise
+      template_variables:
+        collection_mode: default
+        movie_10522: # Starship Troopers Collection
+          - 563: # Starship Troopers
+          - 10304: # Starship Troopers 2: Hero of the Federation
+          - 11127: # Starship Troopers 3: Marauder
+          - 114478: # Starship Troopers: Invasion
+          - 460790: # Starship Troopers: Traitor of Mars
+        exclude:
+          - 192492 # The Jack Ryan Collection
+          - 1445665 # Starship Troopers (Animate) Collection
+          - 893713 # Sword Art Online Collection
+          - 388790 # Heaven's Lost Property Collection
+    - folder: config/moviecollections
+      # see the wiki for how to use local files, folders, URLs, or files from git
+    remove_overlays: false            ## <<< ADD THIS LINE
+    overlay_files:                         ## <<< ADD THIS LINE
+    - default: resolution
+      template_variables:
+        use_4k_dvhdrplus: true
+        use_4k_dvhdr: true
+        use_4k_plus: true
+        use_4k_dv: true
+        use_4k_hdr: true
+        use_4k: true
+        use_1080p: false
+        use_720p: false
+        use_576p: false
+        use_480p: false
+        use_edition: false
+    operations:
+      assets_for_all: true
+  TV Shows:
+    collection_files:
+    - default: basic                   # This is a file within PMM's defaults folder
+    - default: imdb                    # This is a file within PMM's defaults folder
+    - default: universe
+      template_variables:
+        collection_order: release
+        append_data:
+          clancy: Tom Clancy's Ryanverse
+          new_dc: DC Universe
+          twd: The Walking Dead
+        trakt_list_clancy: https://trakt.tv/users/sjgibson/lists/tom-clancy?sort=rank,asc
+        trakt_list_trek: https://trakt.tv/users/dgw/lists/star-trek-canon?sort=rank,asc
+        mdblist_list_dca: https://mdblist.com/lists/mmozeiko/dc-animated-universe
+        trakt_list_dcu: https://trakt.tv/users/fa11en82/lists/dceu-dc-extended-universe?sort=released,asc
+        mdblist_list_marvel: https://mdblist.com/lists/fa11en82/in-association-with-marvel
+        mdblist_list_mcu: https://mdblist.com/lists/mmozeiko/marvel-cinematic-universe
+        mdblist_list_middle: https://mdblist.com/lists/kayaaron13/middle-earth
+        trakt_list_new_dc: https://trakt.tv/users/defqonforce/lists/dc-universe-dcu-gunnverse?sort=rank,asc
+        trakt_list_twd: https://trakt.tv/users/myrobin/lists/walking-dead?sort=rank,asc
+    - default: separator_award
+    - default: emmy
+      template_variables:
+        use_year_collections: false
+        collection_order: release.desc
+    - default: golden
+      template_variables:
+        use_year_collections: false
+        collection_order: release.desc
+    - default: choice
+      template_variables:
+        use_year_collections: false
+        collection_order: release.desc
+    - default: pca
+      template_variables:
+        use_year_collections: false
+        collection_order: release.desc
+    - default: sag
+      template_variables:
+        use_year_collections: false
+        collection_order: release.desc
+    - default: based
+      template_variables:
+        collection_order: release.desc
+    - folder: config/tvcollections
+      # see the wiki for how to use local files, folders, URLs, or files from git
+    remove_overlays: false            ## <<< ADD THIS LINE
+    overlay_files:
+    - default: resolution
+      template_variables:
+        use_4k_dvhdrplus: true
+        use_4k_dvhdr: true
+        use_4k_plus: true
+        use_4k_dv: true
+        use_4k_hdr: true
+        use_4k: true
+        use_1080p: false
+        use_720p: false
+        use_576p: false
+        use_480p: false
+    - default: resolution
+      template_variables:
+        builder_level: season
+        use_4k: true
+        use_1080p: false
+        use_720p: false
+        use_576p: false
+        use_480p: false
+      # see the wiki for how to use local files, folders, URLs, or files from git
+    operations:
+      assets_for_all: true
+  Anime:
+    collection_files:
+    - default: basic                   # This is a file within PMM's defaults folder
+    - default: anilist                 # This is a file within PMM's defaults folder
+    - default: myanimelist             # This is a file within PMM's defaults folder
+    - default: other_chart                   # This is a file within PMM's defaults folder
+      template_variables:
+        use_anidb: true
+        use_commonsense: false
+        use_stevenlu: false
+        use_pirated: false
+    - folder: config/animecollections
+      # see the wiki for how to use local files, folders, URLs, or files from git
+    remove_overlays: false            ## <<< ADD THIS LINE
+    overlay_files:
+    - default: language_count
+      template_variables:
+        builder_level: episode
+    operations:
+      assets_for_all: true
+playlist_files:
+- file: config/playlistcollection.yml
+- default:                    # This is a file within PMM's defaults folder
+  template_variables:
+  libraries: Movies, TV Shows, Anime       # list of libraries that you want the PMM Defaults playlists to look at
+  # see the wiki for how to use local files, folders, URLs, or files from git
+settings:
+  run_order:
+  - operations
+  - metadata
+  - collections
+  - overlays
+  cache: true
+  cache_expiration: 15
+  asset_directory:
+  - /config/assets/Anime
+  - /config/assets/Collections
+  - /config/assets/Movies
+  - /config/assets/TV Shows
+  asset_folders: false
+  asset_depth: 0
+  create_asset_folders: false
+  prioritize_assets: true
+  dimensional_asset_rename: false
+  download_url_assets: false
+  show_missing_season_assets: false
+  show_missing_episode_assets: false
+  show_asset_not_needed: true
+  sync_mode: append
+  minimum_items: 2
+  default_collection_order:
+  delete_below_minimum: false
+  delete_not_scheduled: false
+  run_again_delay: 2
+  missing_only_released: false
+  only_filter_missing: false
+  show_unmanaged: true
+  show_unconfigured: true
+  show_filtered: false
+  show_options: true
+  show_missing: true
+  show_missing_assets: true
+  save_report: false
+  tvdb_language: eng
+  ignore_ids:
+  ignore_imdb_ids:
+  item_refresh_delay: 0
+  playlist_sync_to_users: all
+  playlist_exclude_users:
+  playlist_report: false
+  verify_ssl: true
+  custom_repo:
+  overlay_artwork_filetype: jpg
+  overlay_artwork_quality:
+  show_unfiltered: false

@@ -1,0 +1,65 @@
+collections:
+  Adult Swim:
+    trakt_list: https://trakt.tv/users/jmastab/lists/adult-swim?sort=title,asc
+    collection_order: release.desc
+    sort_title: "!030_Adult Swim"
+    summary: Shows on Adult Swim.
+  Attack on Titan (Anime):
+    trakt_list: https://trakt.tv/users/sergio_sfranco/lists/attack-on-titan-all-episodes-oads-in-viewing-order?sort=rank,asc
+    collection_order: release
+    summary: A world dominated by giants. Humans, who became the prey of the giants, built a huge wall with a height of 50 meters to prevent the invasion of the giants. In exchange for freedom outside the wall… Eren Yeager, a boy who longs for freedom to go out of the wall. He is content with the tentative peace in the wall and feels uncomfortable with those who have given up on going out to the outside world. One day, the wall was easily broken by a "super giant" who suddenly appeared, and the city of Ellen fell by the giant. Ellen, whose mother was eaten in front of him, burns revenge when he destroys all the giants and becomes a soldier who fights against the giants.
+  Baki:
+    trakt_list: https://trakt.tv/users/drachenplatinum/lists/baki?sort=rank,asc
+    collection_order: release
+    summary: Baki Hanma is the protagonist of the Baki the Grappler franchise. At thirteen, he decided to take his training into his own hands to perform more intense training in his father's footsteps. He later aims to defeat him. Baki first fought in the no-rules arena at fifteen and went on to become its champion. He is the son of Yuujirou Hanma and Emi Akezawa and the half-brother of Jack Hanma. He is known as the "Champion" of the Underground Arena in Tokyo Dome, he is often called "the Strongest Boy on the Earth."
+  Berserk:
+    trakt_list: https://trakt.tv/users/drachenplatinum/lists/beserk-series?sort=title,asc
+    collection_order: release
+    summary: Guts, renowned as the "Black Swordsman", is a former mercenary and branded wanderer who travels the world in a constant internal struggle between pursuing his own ends and upholding his attachments to those dear to him. At one time driven solely by his will to survive, Guts finds purpose in life upon joining the Band of the Falcon, greatly helping in the faction's storied successes during the Hundred-Year War as captain of the band's raiders. He eventually becomes dissatisfied with clinging to Griffith's dream and departs from the band in pursuit of his own. Following the horrors of the Eclipse prompted by Griffith, Guts embarks on a two-year war against the God Hand and apostles, becoming increasingly embittered on his one-track quest for retribution. He in time realizes protecting his regressed lover is more important to him, as well as something he cannot do alone, and thus puts aside his quest for revenge while fostering camaraderie with new companions.
+  Bleach:
+    trakt_list: https://trakt.tv/users/behead974/lists/bleach?sort=rank,asc
+    collection_order: release
+    summary: Ichigo Kurosaki is a 15-year-old boy with the ability to see spirits, something that he considers more of a bother than a gift. One day he meets a Shinigami (Death God) named Rukia, who's on the run from a Hollow—a destructive spirit with unfinished business on Earth. As a last-minute measure, Rukia transfers her powers to Ichigo, whose abundant supply of spirit energy makes him a far more potent Shinigami than she ever was! Soon Ichigo is vanquishing Hollows left and right, and meeting other friends at school with similar abilities. However, Rukia's transfer of power is forbidden by the Soul Society (the official name of the spirit world), and when their agents come to Earth to dish out the consequences, Ichigo finds that he might have to challenge the entire world of the dead to save her.
+  Dragon Ball:
+    trakt_list: https://trakt.tv/users/yoru14/lists/dragon-ball?sort=rank,asc
+    collection_order: release
+    summary: The series follows the adventures of protagonist Son Goku from his childhood through adulthood as he trains in martial arts. He spends his childhood far from civilization until he meets a teen girl named Bulma, who encourages him to join her quest in exploring the world in search of the seven orbs known as the Dragon Balls, which summon a wish-granting dragon when gathered. Along his journey, Goku makes several other friends, becomes a family man, discovers his alien heritage, and battles a wide variety of villains, many of whom also seek the Dragon Balls. Dragon Ball is widely considered one of the most popular anime of all time and is internationally recognized for it's action and comedy aspects. The story and characters of Dragon Ball were partly inspired by the Chinese folk novel Journey to the West, though they diverge from the novel very quickly. Son Goku is based on Sun Wukong also known as the Monkey King.
+  Final Fantasy:
+    trakt_list: https://trakt.tv/users/yoru14/lists/final-fantasy?sort=rank,asc
+    collection_order: release
+    summary: Anime that exist in the worlds of Final Fantasy.
+  Ghost in the Shell:
+    trakt_list: https://trakt.tv/users/yoru14/lists/ghost-in-the-shell?sort=rank,asc
+    collection_order: release
+    summary: As cybernetic technology advances, criminal activities are becoming daily common occurrences. For Chief Aramaki and his ELITE squad, Section 9, they are the only ones with the means to put an end to cyber terrorism. Join Togusa, Ishikawa, The Major, Batou, Tachikomas, and the rest of the Section 9 team through a intellectual roller coaster ride in the 21st century.
+  HiDive Shows:
+    mdblist_list: https://mdblist.com/lists/fa11en82/hidive
+    collection_order: release.desc
+    sort_title: "!030_HiDive Shows"
+    summary: Shows streaming on HiDive.
+  Mobile Suit Gundam:
+    mdblist_list: https://mdblist.com/lists/fa11en82/gundam-franchise
+    collection_order: release
+    summary: Gundam is a Japanese military science fiction media franchise. Created by Yoshiyuki Tomino and Sunrise (now Bandai Namco Filmworks), the franchise features giant robots, or mecha, with the name "Gundam". The franchise began on April 7, 1979, with Mobile Suit Gundam, a TV series that defined the "real robot" mecha anime genre by featuring giant robots called mobile suits (including the original titular mecha) in a militaristic setting. The popularity of the series and its merchandise spawned a franchise that includes 50 TV series, films and OVAs as well as manga, novels and video games, along with a whole industry of plastic model kits known as Gunpla which makes up 90 percent of the Japanese character plastic-model market.
+  Naruto:
+    trakt_list: https://trakt.tv/users/wasmisch77/lists/naruto?sort=rank,asc
+    collection_order: release
+    summary: Naruto tells the story of Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of becoming the Hokage, the leader of his village. The story is told in three parts, the first is set in Naruto's pre-teen years, the second is during his teens, and finally the third occurs during his adulthood.
+  Netflix Shows:
+    trakt_list: https://trakt.tv/users/tomcdj/lists/netflix-shows?sort=rank,asc
+    sort_title: "!030_Netflix Shows"
+    collection_order: release.desc
+    summary: Shows streaming on Netflix.
+  RWBY:
+    trakt_list: https://trakt.tv/users/nameiskallie/lists/rwby-collection?sort=rank,asc
+    collection_order: release
+    summary: In the supernatural universe of Remnant, four strong girls are training to become Huntresses, which are humanity's only hope of defeating the shadowy and threatening creatures known as Grimm.
+  Showtime Shows:
+    trakt_list: https://trakt.tv/users/asmobarki/lists/showtime?sort=released,asc
+    sort_title: "!030_Showtime Shows"
+    collection_order: release.desc
+    summary: Shows streaming on Showtime.
+  Sword Art Online:
+    trakt_list: https://trakt.tv/users/ximphrambugle/lists/sword-art-online-chronological-order?sort=rank,asc
+    collection_order: release
+    summary: In the near future, a Virtual Reality Massive Multiplayer Online Role-Playing Game (VRMMORPG) called Sword Art Online has been released where players control their avatars with their bodies using a piece of technology called Nerve Gear. One day, players discover they cannot log out, as the game creator is holding them captive unless they reach the 100th floor of the game's tower and defeat the final boss. However, if they die in the game, they die in real life. Their struggle for survival starts now.

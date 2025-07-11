@@ -1,0 +1,216 @@
+collections:
+  A24:
+    mdblist_list: https://mdblist.com/lists/fa11en82/a24
+    collection_order: release.desc
+    sort_title: "!070_A24"
+    summary: A24 is an American independent entertainment company that specializes in film and television production, as well as film distribution.
+  Adult Swim:
+    trakt_list: https://trakt.tv/users/jmastab/lists/adult-swim?sort=title,asc
+    sort_title: "!030_Adult Swim"
+    collection_order: release.desc
+    summary: Movies on Adult Swim.
+  Agatha Christie Mystery:
+    trakt_list: https://trakt.tv/users/ravensorb/lists/agatha-christie?sort=released,desc
+    sort_title: "Agatha Christie Mystery Collection"
+    collection_order: release
+    summary: Collection of movies and shows based on the works of Agatha Christie.
+  Anne Rice's Immortal Universe:
+    trakt_list: https://trakt.tv/users/fa11en82/lists/anne-rice-universe?sort=released,asc
+    collection_order: release
+    sort_title: "!040_Anne Rice's Immortal Universe"
+    summary: Movies and Shows based on Anne Rice's Vampire Chronicles and Mayfair Witches books.
+  Attack on Titan (Anime):
+    trakt_list: https://trakt.tv/users/sergio_sfranco/lists/attack-on-titan-all-episodes-oads-in-viewing-order?sort=rank,asc
+    collection_order: release
+    summary: A world dominated by giants. Humans, who became the prey of the giants, built a huge wall with a height of 50 meters to prevent the invasion of the giants. In exchange for freedom outside the wall… Eren Yeager, a boy who longs for freedom to go out of the wall. He is content with the tentative peace in the wall and feels uncomfortable with those who have given up on going out to the outside world. One day, the wall was easily broken by a "super giant" who suddenly appeared, and the city of Ellen fell by the giant. Ellen, whose mother was eaten in front of him, burns revenge when he destroys all the giants and becomes a soldier who fights against the giants.
+  Avatar Universe:
+    trakt_list: https://trakt.tv/users/abhikbhatia/lists/avatar-studios?sort=released,desc
+    collection_order: release
+    summary: Avatar The Last Airbender is set in an Asiatic-like world in which some people can manipulate the classical elements with psychokinetic variants of the Chinese martial arts known as "bending". The series is presented in a style that combines anime with American cartoons and relies on the imagery of East/South Asian, Inuit, and New World societies. It follows the protagonists, 12-year-old Aang and his friends, who must bring peace and unity to the world by ending the Fire Lord's war with the rest of the world. An animated sequel series, The Legend of Korra, aired from 2012 to 2014. A new live-action remake of the series by its original creators to be produced for Netflix was announced in September 2018.
+  Baki:
+    trakt_list: https://trakt.tv/users/drachenplatinum/lists/baki?sort=rank,asc
+    collection_order: release
+    summary: Baki Hanma is the protagonist of the Baki the Grappler franchise. At thirteen, he decided to take his training into his own hands to perform more intense training in his father's footsteps. He later aims to defeat him. Baki first fought in the no-rules arena at fifteen and went on to become its champion. He is the son of Yuujirou Hanma and Emi Akezawa and the half-brother of Jack Hanma. He is known as the "Champion" of the Underground Arena in Tokyo Dome, he is often called "the Strongest Boy on the Earth."
+  Berserk:
+    trakt_list: https://trakt.tv/users/drachenplatinum/lists/beserk-series?sort=title,asc
+    collection_order: release
+    summary: Guts, renowned as the "Black Swordsman", is a former mercenary and branded wanderer who travels the world in a constant internal struggle between pursuing his own ends and upholding his attachments to those dear to him. At one time driven solely by his will to survive, Guts finds purpose in life upon joining the Band of the Falcon, greatly helping in the faction's storied successes during the Hundred-Year War as captain of the band's raiders. He eventually becomes dissatisfied with clinging to Griffith's dream and departs from the band in pursuit of his own. Following the horrors of the Eclipse prompted by Griffith, Guts embarks on a two-year war against the God Hand and apostles, becoming increasingly embittered on his one-track quest for retribution. He in time realizes protecting his regressed lover is more important to him, as well as something he cannot do alone, and thus puts aside his quest for revenge while fostering camaraderie with new companions.
+  Bleach:
+    trakt_list: https://trakt.tv/users/behead974/lists/bleach?sort=rank,asc
+    collection_order: release
+    summary: Ichigo Kurosaki is a 15-year-old boy with the ability to see spirits, something that he considers more of a bother than a gift. One day he meets a Shinigami (Death God) named Rukia, who's on the run from a Hollow—a destructive spirit with unfinished business on Earth. As a last-minute measure, Rukia transfers her powers to Ichigo, whose abundant supply of spirit energy makes him a far more potent Shinigami than she ever was! Soon Ichigo is vanquishing Hollows left and right, and meeting other friends at school with similar abilities. However, Rukia's transfer of power is forbidden by the Soul Society (the official name of the spirit world), and when their agents come to Earth to dish out the consequences, Ichigo finds that he might have to challenge the entire world of the dead to save her.
+  Bruce Lee:
+    trakt_list: https://trakt.tv/users/jazzcub/lists/bruce-lee?sort=rank,asc
+    collection_order: release
+    summary: Movies starring Bruce Lee.
+  The Cornetto Trilogy:
+    trakt_list: https://trakt.tv/users/goape/lists/cornetto-trilogy?sort=rank,asc
+    collection_order: release
+    sort_title: "!040_Cornetto Trilogy"
+    summary: The Three Flavours Cornetto trilogy (also known as the Cornetto trilogy or the Blood and Ice Cream trilogy) is an anthology series of British comedic genre films directed by Edgar Wright, written by Wright and Simon Pegg, produced by Nira Park, and starring Pegg and Nick Frost. The trilogy consists of Shaun of the Dead (2004), Hot Fuzz (2007), and The World's End (2013).
+  Dark Universe:
+    trakt_list: https://trakt.tv/users/jes-wan/lists/dark-universe?sort=released,desc
+    collection_order: release
+    sort_title: "!040_Dark Universe"
+  Dave Chappelle:
+    trakt_list: https://trakt.tv/users/xcynicalcypher/lists/dave-chappelle-standup?sort=released,desc
+    collection_order: release
+    summary: A collection of Dave Chappelle's comedy shows.
+  David Attenborough:
+    trakt_list: https://trakt.tv/users/lezelmaz/lists/david-attenborough?sort=rank,asc
+    collection_order: release
+    summary: A collection of famed naturalist David Attenborough's groundbreaking wildlife documentary series, exploring the rich variety of plant and animal life on the planet. Using a variety of pioneering camera techniques, these documentaries reveal aspects of the natural world that have never been seen on camera before, and that established Attenborough's reputation as the greatest wildlife broadcaster in the world.
+  Dragon Ball:
+    trakt_list: https://trakt.tv/users/yoru14/lists/dragon-ball?sort=rank,asc
+    collection_order: release
+    summary: All series and movies of Dragon Ball.
+  DreamWorks Animation:
+    trakt_list: https://trakt.tv/users/oneluckydad/lists/dreamworks-animation?sort=rank,asc
+    collection_order: release.desc
+    sort_title: "!070_DreamWorks Animation"
+    summary: Movies produced by DreamWorks Animation.
+  Dropout:
+    mdblist_list: https://mdblist.com/lists/jacksonbrink/dropout-originals
+    sort_title: "!030_Dropout"
+    collection_order: release.desc
+    summary: Shows streaming on Dropout.
+  Dune Universe:
+    trakt_list: https://trakt.tv/users/hriday-80ce1824-23e8-4fee-99e5-8edc661aed32/lists/dune?sort=released,asc
+    collection_order: release
+    sort_title: "!040_Dune Universe"
+    summary: Dune is a science fiction novel written by Frank Herbert and published in 1965. A joint winner of the 1966 Hugo Award and the winner of the first Nebula Award for Best Novel, Dune is popularly considered one of the greatest science fiction novels of all time, is frequently cited as the best-selling science fiction novel in history and was the first bestselling hardcover science fiction novel ever.
+  Final Fantasy:
+    trakt_list: https://trakt.tv/users/yoru14/lists/final-fantasy?sort=rank,asc
+    collection_order: release
+    summary: Movies that exist in the worlds of Final Fantasy.
+  Ghost in the Shell:
+    trakt_list: https://trakt.tv/users/yoru14/lists/ghost-in-the-shell?sort=rank,asc
+    collection_order: release
+    summary: As cybernetic technology advances, criminal activities are becoming daily common occurrences. For Chief Aramaki and his ELITE squad, Section 9, they are the only ones with the means to put an end to cyber terrorism. Join Togusa, Ishikawa, The Major, Batou, Tachikomas, and the rest of the Section 9 team through a intellectual roller coaster ride in the 21st century.
+  Heaven's Lost Property:
+    trakt_list: https://trakt.tv/lists/official/heaven-s-lost-property-collection?sort=rank,asc
+    collection_order: release
+    summary: Sakurai Tomoki has been having the same strange dream since he was a child and would wake up in tears. Sugata, an upperclassman at his school, believes the dream to be of the new continent. Later that night, while waiting under the cherry trees for Sugata and his childhood friend, an angel called Ikaros comes flying down and his peaceful life changes from then on.
+  Illumination Entertainment:
+    trakt_list: https://trakt.tv/users/mythicalsensai/lists/illumination?sort=rank,asc
+    sort_title: "!070_Illumination Entertainment"
+    collection_order: release.desc
+    summary: Movies produced by Illumination Entertainment.
+  In Association With DC:
+    mdblist_list: https://mdblist.com/lists/fa11en82/in-association-with-dc
+    collection_order: release.desc
+    sort_title: "!040_In Association With DC"
+  Jack Ryan:
+    trakt_list: https://trakt.tv/users/krissykk/lists/jack-ryan-series?sort=title,asc
+    sort_title: "Jack Ryan Collection"
+    collection_order: release
+    summary: John Patrick "Jack" Ryan, Sr. is a fictional character created by Tom Clancy who appears in many of his novels and their respective film adaptations.
+  James Cameron (Directing):
+    smart_filter: 
+      all: 
+        director: tmdb
+      sort_by: release.desc
+    tmdb_person: 2710
+    sort_title: "!150_James Cameron"
+    summary: Movies directed by James Cameron.
+  John Wick Universe:
+    trakt_list: https://trakt.tv/users/drjenkins/lists/john-wick?sort=released,desc
+    sort_title: "!040_John Wick Universe"
+    collection_order: release
+    summary: A neo-noir action thriller film series that follows Jonathan 'John' Wick, a former assassin, who comes out of retirement seeking vengeance for the theft of his vintage car and the murder of the puppy his deceased wife left to him.
+  Ken Burns:
+    trakt_list: https://trakt.tv/users/iiviioran/lists/ken-burns?sort=rank,asc
+    collection_order: release
+    summary: Collection of documentary films and television series directed/produced by Ken Burns.
+  Kevin Smith (Directing):
+    smart_filter: 
+      all: 
+        director: tmdb
+      sort_by: release.desc
+    tmdb_person: 19303
+    sort_title: "!150_Kevin Smith"
+    summary: Movies directed by Kevin Smith.
+  Lucasfilm Ltd.:
+    trakt_list: https://trakt.tv/users/mdatum/lists/lucasfilms?sort=rank,asc
+    sort_title: "!070_Lucasfilm Ltd."
+    collection_order: release.desc
+    summary: Movies produced by Lucasfilm Ltd.
+  The Man with No Name:
+    trakt_list: https://trakt.tv/users/astrolansen/lists/the-man-with-no-name?sort=released,asc
+    sort_title: "Man with No Name Collection"
+    collection_order: release
+    summary: Also known as the Dollars Trilogy or the Blood Money Trilogy, is an Italian film series consisting of three Spaghetti Western films directed by Sergio Leone and distributed by United Artists. This series is known for establishing the Spaghetti Western genre and inspiring the creation of many more like films. These three films are consistently listed among the best rated Western films in history.
+  Marvel Animated Universe:
+    mdblist_list: https://mdblist.com/lists/mmozeiko/marvel-animated-universe
+    collection_order: release
+    sort_title: "!040_Marvel Animated Universe"
+  Monsterverse:
+    trakt_list: https://trakt.tv/users/folion/lists/monsterverse?sort=rank,asc
+    collection_order: release
+    sort_title: "!040_Monsterverse"
+    summary: The MonsterVerse is an American multimedia franchise and shared fictional universe that is centered on a series of monster films featuring Godzilla and King Kong, produced by Legendary Entertainment and co-produced and distributed by Warner Bros. Pictures.
+  National Lampoon:
+    trakt_list: https://trakt.tv/users/pr1nc1p3/lists/national-lampoon-s?sort=released,desc
+    collection_order: release.desc
+    sort_title: "!070_National Lampoon"
+    summary: Movies produced or licensed by National Lampoon.
+  Peanuts:
+    trakt_list: https://trakt.tv/users/krissykk/lists/animation-charlie-brown-peanuts-collection?sort=rank,asc
+    sort_title: "!040_Peanuts"
+    collection_order: release.desc
+    summary: Peanuts and Charlie Brown are based on a long-running comic strip drawn and authored by Charles Schulz.
+  Pirates of the Caribbean:
+    trakt_list: https://trakt.tv/users/arachn0id/lists/pirates-of-the-caribbean?sort=released,desc
+    collection_order: release
+    sort_title: "!040_Pirates of the Caribbean"
+    summary: A series of fantasy swashbuckler films based on Walt Disney's theme park ride of the same name. The films follow the adventures of Captain Jack Sparrow and take place in a fictional historical setting; a world ruled by the British Empire, the East India Trading Company and the Spanish Empire, with pirates representing freedom from the ruling powers.
+  Pixar:
+    trakt_list: https://trakt.tv/users/bubbles-prior/lists/disney-pixar-productions?sort=rank,asc
+    sort_title: "!070_Pixar"
+    collection_order: release.desc
+    summary: Movies produced by Pixar Animation.
+  Quentin Tarantino (Directing):
+    smart_filter: 
+      all: 
+        director: tmdb
+      sort_by: release.desc
+    tmdb_person: 138
+    sort_title: "!150_Quentin Tarantino"
+    summary: Movies written and directed by Quentin Tarantino.
+  Stanley Kubrick (Directing):
+    smart_filter: 
+      all: 
+        director: tmdb
+      sort_by: release.desc
+    tmdb_person: 240
+    sort_title: "!150_Stanley Kubrick"
+    summary: Movies directed by Stanley Kubrick.
+  Stargate:
+    trakt_list: https://trakt.tv/users/stackguard/lists/stargate?sort=rank,asc
+    collection_order: release
+    sort_title: "!040_Stargate"
+    summary: Stargate is a military science fiction media franchise based on the film directed by Roland Emmerich, which he co-wrote with producer Dean Devlin. The franchise is based on the idea of an alien Einstein–Rosen bridge device (the Stargate) that enables nearly instantaneous travel across the cosmos.
+  Studio Ghibli:
+    trakt_list: https://trakt.tv/users/avaianade/lists/studio-ghibli?sort=released,asc
+    sort_title: "!070_Studio Ghibli"
+    collection_order: release.desc
+    summary: Movies produced by Studio Ghibli.
+  Sword Art Online:
+    trakt_list: https://trakt.tv/users/dudeimtired/lists/sword-art-online-collection?sort=released,asc
+    collection_order: release
+    summary: In the near future, a Virtual Reality Massive Multiplayer Online Role-Playing Game (VRMMORPG) called Sword Art Online has been released where players control their avatars with their bodies using a piece of technology called Nerve Gear. One day, players discover they cannot log out, as the game creator is holding them captive unless they reach the 100th floor of the game's tower and defeat the final boss. However, if they die in the game, they die in real life. Their struggle for survival starts now.
+  Transformers:
+    trakt_list: https://trakt.tv/users/martheo/lists/transformers?sort=rank,asc
+    sort_title: "!040_Transformers"
+    collection_order: release
+    summary: A series of films existing in Hasbro's Transformers Universe centered around two groups of alien robots that have the ability to transform into mechanical objects of various sizes as disguises to prevent being discovered.
+  Walt Disney Animation:
+    trakt_list: https://trakt.tv/users/bubbles-prior/lists/walt-disney-animations?sort=rank,asc
+    sort_title: "!070_Walt Disney Animation"
+    collection_order: release.desc
+    summary: Movies produced by Walt Disney Animation Studios. This collection includes only feature film presentations.
+  Walt Disney (Live-Action) Remakes:
+    trakt_list: https://trakt.tv/users/liudvikas/lists/walt-disney-live-action?sort=released,asc
+    sort_title: "!070_Walt Disney (Live-Action) Remakes"
+    collection_order: release.desc
+    summary: Movies produced by Walt Disney Studios as Live-Action versions of Disney Animated films.

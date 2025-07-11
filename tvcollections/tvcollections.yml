@@ -1,0 +1,151 @@
+collections:
+  A24:
+    mdblist_list: https://mdblist.com/lists/fa11en82/a24
+    collection_order: release.desc
+    summary: A24 is an American independent entertainment company that specializes in film and television production, as well as film distribution.
+  Adult Swim:
+    trakt_list: https://trakt.tv/users/jmastab/lists/adult-swim?sort=title,asc
+    sort_title: "!030_Adult Swim"
+    collection_order: release.desc
+    summary: Shows streaming on Adult Swim.
+  Agatha Christie Mystery:
+    trakt_list: https://trakt.tv/users/ravensorb/lists/agatha-christie?sort=released,desc
+    sort_title: "Agatha Christie Mystery Collection"
+    collection_order: release
+    summary: Collection of movies and shows based on the works of Agatha Christie.
+  Anne Rice's Immortal Universe:
+    trakt_list: https://trakt.tv/users/fa11en82/lists/anne-rice-universe?sort=released,asc
+    collection_order: release
+    sort_title: "!040_Anne Rice's Immortal Universe"
+    summary: Movies and Shows based on Anne Rice's Vampire Chronicles and Mayfair Witches books.
+  Avatar Universe:
+    trakt_list: https://trakt.tv/users/abhikbhatia/lists/avatar-studios?sort=released,desc
+    collection_order: release
+    summary: Avatar The Last Airbender is set in an Asiatic-like world in which some people can manipulate the classical elements with psychokinetic variants of the Chinese martial arts known as "bending". The series is presented in a style that combines anime with American cartoons and relies on the imagery of East/South Asian, Inuit, and New World societies. It follows the protagonists, 12-year-old Aang and his friends, who must bring peace and unity to the world by ending the Fire Lord's war with the rest of the world. An animated sequel series, The Legend of Korra, aired from 2012 to 2014. A new live-action remake of the series by its original creators to be produced for Netflix was announced in September 2018.
+  Band of Brothers:
+    trakt_list: https://trakt.tv/users/sietsevdm/lists/band-of-brothers?sort=rank,asc
+    collection_order: release
+    summary: Collection of shows based on stories collected through interviews of World War II survivors. The three shows cover three vastly different aspects of World War II, the European Theater, the Pacific Theater, and the battle for air supremacy.
+  BBC Shows:
+    trakt_list: https://trakt.tv/users/techtitus/lists/bbc-shows?sort=rank,asc
+    sort_title: "!030_BBC Shows"
+    collection_order: release.desc
+    summary: Shows streaming on BBC.
+  Comedy Central:
+    trakt_list: https://trakt.tv/users/kylesheila/lists/comedy-central?sort=title,asc
+    sort_title: "!030_Comedy Central"
+    collection_order: release.desc
+    summary: Shows streaming on Comedy Central.
+  David Attenborough:
+    trakt_list: https://trakt.tv/users/lezelmaz/lists/david-attenborough?sort=rank,asc
+    collection_order: release
+    summary: A collection of famed naturalist David Attenborough's groundbreaking wildlife documentary series, exploring the rich variety of plant and animal life on the planet. Using a variety of pioneering camera techniques, these documentaries reveal aspects of the natural world that have never been seen on camera before, and that established Attenborough's reputation as the greatest wildlife broadcaster in the world.
+  Dexter:
+    trakt_list: https://trakt.tv/users/planetjimbo/lists/dexter-collection?sort=rank,asc
+    collection_order: release
+    summary: Dexter Morgan is blood spatter expert for the Miami Metro Police working daily to catch the worst society has to offer, but Dexter has a secret. Dexter has a special insight into the minds of killers with the assistance of his "dark passenger," will he be able to control his impulses or will he let his hidden self take control?
+  Dropout:
+    mdblist_list: https://mdblist.com/lists/jacksonbrink/dropout-originals
+    sort_title: "!030_Dropout"
+    collection_order: release.desc
+    summary: Shows streaming on Dropout.
+  Dune Universe:
+    trakt_list: https://trakt.tv/users/hriday-80ce1824-23e8-4fee-99e5-8edc661aed32/lists/dune?sort=released,asc
+    collection_order: release
+    sort_title: "!040_Dune Universe"
+    summary: Dune is a science fiction novel written by Frank Herbert and published in 1965. A joint winner of the 1966 Hugo Award and the winner of the first Nebula Award for Best Novel, Dune is popularly considered one of the greatest science fiction novels of all time, is frequently cited as the best-selling science fiction novel in history and was the first bestselling hardcover science fiction novel ever.
+  In Association With DC:
+    mdblist_list: https://mdblist.com/lists/fa11en82/in-association-with-dc
+    collection_order: release.desc
+    sort_title: "!040_In Association With DC"
+  ITV Shows:
+    trakt_list: https://trakt.tv/users/bigbadburnett/lists/itv-shows?sort=rank,asc
+    sort_title: "!030_ITV Shows"
+    collection_order: release.desc
+    summary: Shows streaming on ITV.
+  Jack Ryan:
+    trakt_list: https://trakt.tv/users/krissykk/lists/jack-ryan-series?sort=title,asc
+    sort_title: "Jack Ryan Collection"
+    collection_order: release
+    summary: John Patrick "Jack" Ryan, Sr. is a fictional character created by Tom Clancy who appears in many of his novels and their respective film adaptations.
+  John Wick Universe:
+    trakt_list: https://trakt.tv/users/drjenkins/lists/john-wick?sort=released,desc
+    sort_title: "!040_John Wick Universe"
+    collection_order: release
+    summary: A neo-noir action thriller film series that follows Jonathan 'John' Wick, a former assassin, who comes out of retirement seeking vengeance for the theft of his vintage car and the murder of the puppy his deceased wife left to him.
+  Ken Burns:
+    trakt_list: https://trakt.tv/users/iiviioran/lists/ken-burns?sort=rank,asc
+    collection_order: release  
+    summary: Collection of documentary films and television series directed/produced by Ken Burns.
+  Long Way:
+    trakt_list: https://trakt.tv/users/blazin887/lists/long-way?sort=rank,asc
+    sort_title: "Long Way Collection"
+    collection_order: release
+    summary: Life is an adventure take the Long Way, Ewan McGregor & Charley Boorman travel around the world on their motorcycles to discover people, cultures, and enjoy life on the road (or the lack thereof) when you venture off the beaten path.
+  Marvel Animated Universe:
+    mdblist_list: https://mdblist.com/lists/mmozeiko/marvel-animated-universe
+    collection_order: release
+    sort_title: "!040_Marvel Animated Universe"
+  Monsterverse:
+    trakt_list: https://trakt.tv/users/folion/lists/monsterverse?sort=rank,asc
+    collection_order: release
+    sort_title: "!040_Monsterverse"
+    summary: The MonsterVerse is an American multimedia franchise and shared fictional universe that is centered on a series of monster films featuring Godzilla and King Kong, produced by Legendary Entertainment and co-produced and distributed by Warner Bros. Pictures.
+  Netflix Shows:
+    trakt_list: https://trakt.tv/users/tomcdj/lists/netflix-shows?sort=rank,asc
+    sort_title: "!030_Netflix Shows"
+    collection_order: release.desc
+    summary: Shows streaming on Netflix.
+  PBS:
+    trakt_list: https://trakt.tv/users/asmobarki/lists/pbs?sort=title,asc
+    sort_title: "!030_PBS"
+    collection_order: release.desc
+    summary: Shows streaming on PBS.
+  Peanuts:
+    trakt_list: https://trakt.tv/users/krissykk/lists/animation-charlie-brown-peanuts-collection?sort=rank,asc
+    sort_title: "!040_Peanuts"
+    collection_order: release.desc
+    summary: Peanuts and Charlie Brown are based on a long-running comic strip drawn and authored by Charles Schulz.
+  Pixar:
+    trakt_list: https://trakt.tv/users/bubbles-prior/lists/disney-pixar-productions?sort=rank,asc
+    sort_title: "!070_Pixar"
+    collection_order: release.desc
+    summary: TV Shows produced by Pixar Animation.
+  Showtime Shows:
+    trakt_list: https://trakt.tv/users/asmobarki/lists/showtime?sort=released,asc
+    sort_title: "!030_Showtime Shows"
+    collection_order: release.desc
+    summary: Shows streaming on Showtime.
+  A Song of Ice and Fire:
+    trakt_list: https://trakt.tv/users/veej/lists/a-song-of-ice-fire?sort=rank,asc
+    collection_order: release
+    sort_title: "!040_Song of Ice and Fire"
+    summary: Shows based on George R. R. Martins A Song of Ice and Fire series. Set primarily in the land of Westeros the houses of the Seven Kingdoms fight for control of the Iron Throne.
+  Stargate:
+    trakt_list: https://trakt.tv/users/stackguard/lists/stargate?sort=rank,asc
+    collection_order: release
+    sort_title: "!040_Stargate"
+    summary: Stargate is a military science fiction media franchise based on the film directed by Roland Emmerich, which he co-wrote with producer Dean Devlin. The franchise is based on the idea of an alien Einstein–Rosen bridge device (the Stargate) that enables nearly instantaneous travel across the cosmos.
+  SYFY:
+    mdblist_list: https://mdblist.com/lists/fa11en82/syfy-lyv3n6028l
+    sort_title: "!030_SYFY"
+    collection_order: release.desc
+    summary: Shows streaming on SYFY.
+  Transformers:
+    trakt_list: https://trakt.tv/users/martheo/lists/transformers?sort=rank,asc
+    sort_title: "!040_Transformers"
+    collection_order: release.desc
+    summary: A series of films existing in Hasbro's Transformers Universe centered around two groups of alien robots that have the ability to transform into mechanical objects of various sizes as disguises to prevent being discovered.
+  Vikings:
+    trakt_list: https://trakt.tv/users/blazin887/lists/vikings?sort=rank,asc
+    collection_order: release
+    summary: "Vikings Collection containing the TV show Vikings and it's sequel show, Vikings: Valhalla."
+  Vought Cinematic Universe:
+    trakt_list: https://trakt.tv/users/tiff31/lists/the-boys?sort=released,desc
+    collection_order: release
+    sort_title: "!040_Vought Cinematic Universe"
+    summary: The Vought Cinematic Universe is a setting where super-powered individuals are recognized as heroes by the general public and work for a powerful corporation known as Vought International, which markets and monetizes them. Outside of their heroic personas, most are arrogant, selfish, and corrupt.
+  Yellowstone:
+    trakt_list: https://trakt.tv/users/lokix20/lists/yellowstone?sort=released,desc
+    collection_order: release
+    summary: Yellowstone is an American neo-Western drama television series that follows the Dutton family, owners of the largest ranch in Montana, the Yellowstone Dutton Ranch, commonly called "the Yellowstone". The plot revolves around family drama at the ranch and the bordering Broken Rock Indian Reservation, national park, and developers. A prequel series, titled 1883, follows an earlier generation of the Dutton family as they travel from Texas to found the ranch. 1923 focuses on a new generation of the Dutton Family during the time of Western Expansion, Prohibition and the Great Depression, which in Montana started a decade earlier.
