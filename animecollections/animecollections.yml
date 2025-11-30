@@ -46,7 +46,7 @@ collections:
     collection_order: release
     summary: Naruto tells the story of Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of becoming the Hokage, the leader of his village. The story is told in three parts, the first is set in Naruto's pre-teen years, the second is during his teens, and finally the third occurs during his adulthood.
   Netflix Shows:
-    trakt_list: https://trakt.tv/users/tomcdj/lists/netflix-shows?sort=rank,asc
+    trakt_list: https://trakt.tv/users/jonfinley/lists/netflix-originals?sort=rank,asc
     sort_title: "!030_Netflix Shows"
     collection_order: release.desc
     summary: Shows streaming on Netflix.
@@ -54,12 +54,7 @@ collections:
     trakt_list: https://trakt.tv/users/nameiskallie/lists/rwby-collection?sort=rank,asc
     collection_order: release
     summary: In the supernatural universe of Remnant, four strong girls are training to become Huntresses, which are humanity's only hope of defeating the shadowy and threatening creatures known as Grimm.
-  Showtime Shows:
-    trakt_list: https://trakt.tv/users/asmobarki/lists/showtime?sort=released,asc
-    sort_title: "!030_Showtime Shows"
-    collection_order: release.desc
-    summary: Shows streaming on Showtime.
   Sword Art Online:
-    trakt_list: https://trakt.tv/users/ximphrambugle/lists/sword-art-online-chronological-order?sort=rank,asc
+    trakt_list: https://trakt.tv/users/fa11en82/lists/sword-art-online-chronological-order?sort=rank,asc
     collection_order: release
     summary: In the near future, a Virtual Reality Massive Multiplayer Online Role-Playing Game (VRMMORPG) called Sword Art Online has been released where players control their avatars with their bodies using a piece of technology called Nerve Gear. One day, players discover they cannot log out, as the game creator is holding them captive unless they reach the 100th floor of the game's tower and defeat the final boss. However, if they die in the game, they die in real life. Their struggle for survival starts now.
