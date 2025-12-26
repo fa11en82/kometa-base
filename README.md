@@ -2,4 +2,4 @@
 
 Welcome to my shared Kometa script.
 
-This is basic copy of my yamls that I use for my daily runs.
+This is a basic (somewhat redacted) copy of my config for kometa daily runs.
