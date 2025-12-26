@@ -10,23 +10,27 @@ libraries:                       # This is called out once within the config.yml
         visible_library_top: true
         visible_home_top: true
         visible_shared_top: true
+    - default: streaming
+      template_variables:
+        collection_order: release
     - default: universe
       template_variables:
         collection_order: release
+        exclude: dcu
         append_data:
           clancy: Tom Clancy's Ryanverse
-          new_dc: DC Universe (Reboot)
+          dcs: DC Studios
         trakt_list_askew: https://trakt.tv/users/jes-wan/lists/view-askewniverse?sort=released,desc
-        trakt_list_avp: https://trakt.tv/users/liudvikas/lists/aliens-predators-movies?sort=released,asc
+        mdblist_list_avp: https://mdblist.com/lists/exoduso/predator-franchise
         trakt_list_clancy: https://trakt.tv/users/sjgibson/lists/tom-clancy?sort=rank,asc
-        mdblist_list_dca: https://mdblist.com/lists/mmozeiko/dc-animated-universe
-        trakt_list_dcu: https://trakt.tv/users/fa11en82/lists/dceu-dc-extended-universe?sort=released,asc
+        trakt_list_dca: https://trakt.tv/users/sergeyhist/lists/dc-animation?sort=released,asc
+        mdblist_list_dcs: https://mdblist.com/lists/lookshinji/dc-studios
         mdblist_list_marvel: https://mdblist.com/lists/fa11en82/in-association-with-marvel
         mdblist_list_mcu: https://mdblist.com/lists/mmozeiko/marvel-cinematic-universe
         mdblist_list_middle: https://mdblist.com/lists/aaron713/middle-earth
-        trakt_list_new_dc: https://trakt.tv/users/defqonforce/lists/dc-universe-dcu-gunnverse?sort=rank,asc
-        trakt_list_trek: https://trakt.tv/users/dgw/lists/star-trek-canon?sort=rank,asc
-        mdblist_list_xmen: https://mdblist.com/lists/mmozeiko/marvel-cinematic-universe
+        mdblist_list_star: https://mdblist.com/lists/lookshinji/star-wars-universe
+        mdblist_list_trek: https://mdblist.com/lists/lookshinji/star-trek
+        mdblist_list_xmen: https://mdblist.com/lists/venkatjampani/xmen-x9ul57pzlt
     - default: seasonal
       template_variables:
         emoji: ''
@@ -51,16 +55,26 @@ libraries:                       # This is called out once within the config.yml
       template_variables:
         collection_mode: default
         movie_10522: # Starship Troopers Collection
-          - 563: # Starship Troopers
-          - 10304: # Starship Troopers 2: Hero of the Federation
-          - 11127: # Starship Troopers 3: Marauder
-          - 114478: # Starship Troopers: Invasion
-          - 460790: # Starship Troopers: Traitor of Mars
+        - 563:      # Starship Troopers
+        - 10304:    # Starship Troopers 2: Hero of the Federation
+        - 11127:    # Starship Troopers 3: Marauder
+        - 114478:   # Starship Troopers: Invasion
+        - 460790:   # Starship Troopers: Traitor of Mars
         exclude:
-          - 192492 # The Jack Ryan Collection
-          - 1445665 # Starship Troopers (Animate) Collection
-          - 893713 # Sword Art Online Collection
-          - 388790 # Heaven's Lost Property Collection
+        - 192492    # The Jack Ryan Collection
+        - 1445665   # Starship Troopers (Animated) Collection
+        - 893713    # Sword Art Online Collection
+        - 388790    # Heaven's Lost Property Collection
+        - 118415    # Berserk: Golden Age Arc Collection
+        - 383987    # Attack on Titan: Animation Collection
+        - 961121    # Eureka Seven Hi-Evolution Collection
+        - 91697     # Battlestar Galactica (Reboot) Collection
+        - 754601    # LUPIN THE IIIRD Collection
+        - 1143843   # Lupin the Third vs Detective Conan Collection
+        - 1185967   # Lupin the Third Collection
+        - 23497     # Bleach Collection
+        - 261590    # Living Dead Collection
+        - 944437    # Survival of the Dead Collection
     - folder: config/moviecollections
       # see the wiki for how to use local files, folders, URLs, or files from git
     remove_overlays: false            ## <<< ADD THIS LINE
@@ -84,22 +98,29 @@ libraries:                       # This is called out once within the config.yml
     collection_files:
     - default: basic                   # This is a file within Kometa's defaults folder
     - default: imdb                    # This is a file within Kometa's defaults folder
+    - default: streaming
+      template_variables:
+        collection_order: release
     - default: universe
       template_variables:
         collection_order: release
+        exclude: dcu
         append_data:
           clancy: Tom Clancy's Ryanverse
-          new_dc: DC Universe
+          dcs: DC Studios
           twd: The Walking Dead
+        mdblist_list_arrow: https://mdblist.com/lists/lookshinji/arrowverse
+        mdblist_list_avp: https://mdblist.com/lists/exoduso/predator-franchise
         trakt_list_clancy: https://trakt.tv/users/sjgibson/lists/tom-clancy?sort=rank,asc
-        trakt_list_trek: https://trakt.tv/users/dgw/lists/star-trek-canon?sort=rank,asc
-        mdblist_list_dca: https://mdblist.com/lists/mmozeiko/dc-animated-universe
-        trakt_list_dcu: https://trakt.tv/users/fa11en82/lists/dceu-dc-extended-universe?sort=released,asc
+        trakt_list_dca: https://trakt.tv/users/sergeyhist/lists/dc-animation?sort=released,asc
+        mdblist_list_dcs: https://mdblist.com/lists/lookshinji/dc-studios
         mdblist_list_marvel: https://mdblist.com/lists/fa11en82/in-association-with-marvel
         mdblist_list_mcu: https://mdblist.com/lists/mmozeiko/marvel-cinematic-universe
         mdblist_list_middle: https://mdblist.com/lists/kayaaron13/middle-earth
-        trakt_list_new_dc: https://trakt.tv/users/defqonforce/lists/dc-universe-dcu-gunnverse?sort=rank,asc
+        mdblist_list_star: https://mdblist.com/lists/lookshinji/star-wars-universe
+        mdblist_list_trek: https://mdblist.com/lists/lookshinji/star-trek
         trakt_list_twd: https://trakt.tv/users/myrobin/lists/walking-dead?sort=rank,asc
+        mdblist_list_xmen: https://mdblist.com/lists/venkatjampani/xmen-x9ul57pzlt
     - default: separator_award
     - default: emmy
       template_variables:
@@ -162,6 +183,10 @@ libraries:                       # This is called out once within the config.yml
         use_commonsense: false
         use_stevenlu: false
         use_pirated: false
+    - default: streaming
+      exclude: showtime
+      template_variables:
+        collection_order: release
     - folder: config/animecollections
       # see the wiki for how to use local files, folders, URLs, or files from git
     remove_overlays: false            ## <<< ADD THIS LINE
@@ -172,7 +197,7 @@ libraries:                       # This is called out once within the config.yml
     operations:
       assets_for_all: true
 playlist_files:
-  - file: config/playlistcollection.yml
+- file: config/playlistcollection.yml
   # see the wiki for how to use local files, folders, URLs, or files from git
 settings:
   run_order:
