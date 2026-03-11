@@ -40,6 +40,10 @@ collections:
     sort_title: "!030_BBC Shows"
     collection_order: release.desc
     summary: Shows streaming on BBC.
+  Breaking Bad:
+    trakt_list: https://trakt.tv/users/pjohnston1/lists/breaking-bad?sort=rank,asc
+    collection_order: release
+    summary: Breaking Bad is a crime drama franchise created by American filmmaker Vince Gilligan, primarily based on the television series Breaking Bad, its prequel/sequel series Better Call Saul, and its sequel film El Camino. The fictional universe is sometimes informally referred to as the "Gilliverse."
   Comedy Central:
     trakt_list: https://trakt.tv/users/rontraub/lists/comedy-central?sort=title,asc
     sort_title: "!030_Comedy Central"
@@ -78,6 +82,10 @@ collections:
     collection_order: release
     sort_title: "!040_Game of Thrones"
     summary: Shows based on George R. R. Martins A Song of Ice and Fire series. Set primarily in the land of Westeros the houses of the Seven Kingdoms fight for control of the Iron Throne.
+  Hellaverse:
+    tvdb_list: https://thetvdb.com/lists/17273
+    collection_order: release
+    summary: The Hellaverse is the extended adult animated musical comedy media franchise for the Hazbin Hotel universe created by Vivienne Medrano (Vivziepop), encompassing Hazbin Hotel and its spin-off series set within the same universe across Hell, Heaven, and Earth.
   In Association With DC:
     mdblist_list: https://mdblist.com/lists/fa11en82/in-association-with-dc
     collection_order: release.desc
@@ -140,6 +148,11 @@ collections:
     sort_title: "!030_SYFY"
     collection_order: release.desc
     summary: Shows streaming on SYFY.
+  Tom Clancy's Ryanverse:
+    tmdb_list: 8638835
+    sort_title: "!040_Tom Clancy's Ryanverse"
+    collection_order: release
+    summary: The Ryanverse franchise focuses on the character Jack Ryan, a fictional CIA analyst created in 1984 by American author Tom Clancy, who featured him in fourteen novels. It also features CIA operative John Clark and The Campus, a covert counter-terrorism and intelligence organization.
   Transformers:
     trakt_list: https://trakt.tv/users/martheo/lists/transformers?sort=rank,asc
     sort_title: "!040_Transformers"
@@ -154,6 +167,10 @@ collections:
     collection_order: release
     sort_title: "!040_Vought Cinematic Universe"
     summary: The Vought Cinematic Universe is a setting where super-powered individuals are recognized as heroes by the general public and work for a powerful corporation known as Vought International, which markets and monetizes them. Outside of their heroic personas, most are arrogant, selfish, and corrupt.
+  The Witcher:
+    tmdb_list: 8634511
+    collection_order: release
+    summary: The Witcher universe, based on Andrzej Sapkowski’s books, is a sprawling fantasy franchise focused on monster hunter Geralt of Rivia, sorceress Yennefer of Vengerberg, and Princess Ciri of Cintra on "the Continent". It includes the main series, animated films, a prequel miniseries, and spin-offs exploring the world's lore.
   Yellowstone:
     trakt_list: https://trakt.tv/users/fa11en82/lists/yellowstone?sort=released,desc
     collection_order: release
