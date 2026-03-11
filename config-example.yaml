@@ -18,16 +18,14 @@ libraries:                       # This is called out once within the config.yml
         collection_order: release
         exclude: dcu
         append_data:
-          clancy: Tom Clancy's Ryanverse
           dcs: DC Studios
         trakt_list_askew: https://trakt.tv/users/jes-wan/lists/view-askewniverse?sort=released,desc
         mdblist_list_avp: https://mdblist.com/lists/exoduso/predator-franchise
-        trakt_list_clancy: https://trakt.tv/users/sjgibson/lists/tom-clancy?sort=rank,asc
         trakt_list_dca: https://trakt.tv/users/sergeyhist/lists/dc-animation?sort=released,asc
         mdblist_list_dcs: https://mdblist.com/lists/lookshinji/dc-studios
         mdblist_list_marvel: https://mdblist.com/lists/fa11en82/in-association-with-marvel
         mdblist_list_mcu: https://mdblist.com/lists/mmozeiko/marvel-cinematic-universe
-        mdblist_list_middle: https://mdblist.com/lists/aaron713/middle-earth
+        mdblist_list_middle: https://mdblist.com/lists/andyhawks/universe-middle-earth
         mdblist_list_star: https://mdblist.com/lists/lookshinji/star-wars-universe
         mdblist_list_trek: https://mdblist.com/lists/lookshinji/star-trek
         mdblist_list_xmen: https://mdblist.com/lists/venkatjampani/xmen-x9ul57pzlt
@@ -75,6 +73,7 @@ libraries:                       # This is called out once within the config.yml
         - 23497     # Bleach Collection
         - 261590    # Living Dead Collection
         - 944437    # Survival of the Dead Collection
+        - 9743      # The Hannibal Lecter Collection
     - folder: config/moviecollections
       # see the wiki for how to use local files, folders, URLs, or files from git
     remove_overlays: false            ## <<< ADD THIS LINE
@@ -85,8 +84,15 @@ libraries:                       # This is called out once within the config.yml
         use_4k_dvhdr: true
         use_4k_plus: true
         use_4k_dv: true
+        use_4k_hlg: true
         use_4k_hdr: true
         use_4k: true
+        use_1080p_dvhdrplus: false
+        use_1080p_dvhdr: false
+        use_1080p_plus: false
+        use_1080p_dv: false
+        use_1080p_hlg: false
+        use_1080p_hdr: false
         use_1080p: false
         use_720p: false
         use_576p: false
@@ -106,12 +112,10 @@ libraries:                       # This is called out once within the config.yml
         collection_order: release
         exclude: dcu
         append_data:
-          clancy: Tom Clancy's Ryanverse
           dcs: DC Studios
           twd: The Walking Dead
         mdblist_list_arrow: https://mdblist.com/lists/lookshinji/arrowverse
         mdblist_list_avp: https://mdblist.com/lists/exoduso/predator-franchise
-        trakt_list_clancy: https://trakt.tv/users/sjgibson/lists/tom-clancy?sort=rank,asc
         trakt_list_dca: https://trakt.tv/users/sergeyhist/lists/dc-animation?sort=released,asc
         mdblist_list_dcs: https://mdblist.com/lists/lookshinji/dc-studios
         mdblist_list_marvel: https://mdblist.com/lists/fa11en82/in-association-with-marvel
@@ -177,6 +181,12 @@ libraries:                       # This is called out once within the config.yml
     - default: basic                   # This is a file within Kometa's defaults folder
     - default: anilist                 # This is a file within Kometa's defaults folder
     - default: myanimelist             # This is a file within Kometa's defaults folder
+      template_variables:
+        mal_airing: true
+        mal_all: true
+        mal_favorite: true
+        mal_popular: true
+        mal_season: true
     - default: other_chart             # This is a file within Kometa's defaults folder
       template_variables:
         use_anidb: true
@@ -248,3 +258,92 @@ settings:
   overlay_artwork_filetype: jpg
   overlay_artwork_quality:
   show_unfiltered: false
+  webhooks:                          # Can be individually specified per library as well
+  changes:
+  delete:
+  error:
+  run_end:
+  run_start:
+  version:
+tautulli:                          # Can be individually specified per library as well
+  url: http://192.168.1.12:8181    # Enter Tautulli URL (Optional)
+  apikey:                          # Enter Tautulli API Key (Optional)
+github:
+  token:                           # Enter GitHub Personal Access Token (Optional)
+omdb:
+  apikey:                          # Enter OMDb API Key (Optional)
+  cache_expiration: 60
+mdblist:
+  apikey:                          # Enter MDBList API Key (Optional)
+  cache_expiration: 60
+notifiarr:
+  apikey:                          # Enter Notifiarr API Key (Optional)
+gotify:
+  url: http://192.168.1.12:80      # Enter Gotify server URL (Optional)
+  token:                           # Enter Gotify Token (Optional)
+ntfy:
+  url: http://192.168.1.12:80      # Enter ntfy server URL (Optional)
+  token:                           # Enter ntfy Access Token (Optional)
+  topic:                           # Enter ntfy Topic (Optional)
+anidb:
+  cache_expiration: 60
+  language: en
+  enable_mature: false
+radarr:                            # Can be individually specified per library as well
+  url: http://192.168.1.12:7878    # Enter Radarr server URL (Optional)
+  token:                           # Enter Radarr API Key (Optional)
+  add_missing: false
+  add_existing: false
+  upgrade_existing: false
+  monitor_existing: false
+  root_folder_path: "S:/Movies"    # This value is CASE SENSITIVE
+  monitor: true
+  availability: announced
+  quality_profile: HD-1080p        # This value is CASE SENSITIVE
+  tag:
+  search: false
+  radarr_path:                    # This value is only needed in combination with the *_existing settings
+  plex_path:                      # This value is only needed in combination with the *_existing settings
+  ignore_cache: false
+sonarr:                            # Can be individually specified per library as well
+  url: http://192.168.1.12:8989    # Enter Sonarr server URL (Optional)
+  token:                           # Enter Sonarr API Key (Optional)
+  add_missing: false
+  add_existing: false
+  upgrade_existing: false
+  monitor_existing: false
+  root_folder_path: "S:/TV Shows"  # This value is CASE SENSITIVE
+  monitor: all
+  quality_profile: HD-1080p        # This value is CASE SENSITIVE
+  language_profile: English
+  series_type: standard
+  season_folder: true
+  tag:
+  search: false
+  cutoff_search: false
+  sonarr_path:                     # This value is only needed in combination with the *_existing settings
+  plex_path:                       # This value is only needed in combination with the *_existing settings
+  ignore_cache: false
+trakt:
+  client_id:                       # Enter Trakt Client ID (Optional)
+  client_secret:                   # Enter Trakt Client Secret (Optional)
+  pin:
+  authorization:
+                                   # authorization section is autofilled by the script
+    access_token:
+    created_at:
+    expires_in:
+    refresh_token:
+    scope: public
+    token_type:
+mal:
+  client_id:                       # Enter MyAnimeList Client ID (Optional)
+  client_secret:                   # Enter MyAnimeList Client Secret (Optional)
+  cache_expiration: 60
+  localhost_url:
+  authorization:
+                                   # authorization section is autofilled by the script
+    access_token:
+    expires_in:
+    refresh_token:
+    token_type:
