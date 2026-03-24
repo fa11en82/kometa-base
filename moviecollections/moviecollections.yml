@@ -195,6 +195,15 @@ collections:
     mdblist_list: https://mdblist.com/lists/mmozeiko/marvel-animated-universe
     collection_order: release
     sort_title: "!040_Marvel Animated Universe"
+  Middle Earth:
+    tmdb_list: 8641803
+    collection_order: release
+    sort_title: "!040_Middle Earth"
+  The Miranda Green Mysteries:
+    tmdb_list: 8641800
+    sort_title: "Miranda Green Mysteries"
+    collection_order: release
+    summary: A series of films about Miranda Green, who is a florist with a passion for mystery novels, particularly those by Agatha Christie.
   Monsterverse:
     trakt_list: https://trakt.tv/users/folion/lists/monsterverse?sort=rank,asc
     collection_order: release
