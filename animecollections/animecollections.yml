@@ -1,6 +1,10 @@
 collections:
+  A Certain Magical Universe:
+    tmdb_list: 8641613
+    collection_order: release.desc
+    summary: The A Certain Magical Index universe is a massive, interconnected shared world blending advanced science with supernatural magic. Centered in the highly advanced Academic City in Tokyo, it explores a cold war between science-based Espers and religious Magic Cabals. The franchise includes the main Index series, and spin-offs A Certain Scientific Railgun and A Certain Scientific Accelerator.
   Adult Swim:
-    trakt_list: https://trakt.tv/users/jmastab/lists/adult-swim?sort=title,asc
+    mdblist_list: https://mdblist.com/lists/ppboy/adult-swim
     collection_order: release.desc
     sort_title: "!030_Adult Swim"
     summary: Shows on Adult Swim.

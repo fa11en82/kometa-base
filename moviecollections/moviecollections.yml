@@ -62,20 +62,21 @@ collections:
       - 50940 # Christopher Titus: The 5th Annual End of the World Tour (2007)
     collection_order: release
     summary: The stand-up comedy of Christopher Titus.
-  The Dead:
-    sort_title: "Dead"
-    tmdb_list: 8563729
-    collection_order: release
-    summary: The Dead Collection is the remakes and originals of zombie action-horror films created by George A. Romero beginning with the 1968 film Night of the Living Dead directed by Romero and co-written with John A. Russo. The franchise predominantly centers on different groups of people attempting to survive during the outbreak and evolution of a zombie apocalypse.
   The Cornetto Trilogy:
     tmdb_list: 8632834
     collection_order: release
     sort_title: "!040_Cornetto Trilogy"
     summary: The Three Flavours Cornetto trilogy (also known as the Cornetto trilogy or the Blood and Ice Cream trilogy) is an anthology series of British comedic genre films directed by Edgar Wright, written by Wright and Simon Pegg, produced by Nira Park, and starring Pegg and Nick Frost. The trilogy consists of Shaun of the Dead (2004), Hot Fuzz (2007), and The World's End (2013).
+  The Dead:
+    sort_title: "Dead"
+    tmdb_list: 8563729
+    collection_order: release
+    summary: The Dead Collection is the remakes and originals of zombie action-horror films created by George A. Romero beginning with the 1968 film Night of the Living Dead directed by Romero and co-written with John A. Russo. The franchise predominantly centers on different groups of people attempting to survive during the outbreak and evolution of a zombie apocalypse.
   Dark Universe:
-    trakt_list: https://trakt.tv/users/jes-wan/lists/dark-universe?sort=released,desc
+    tmdb_list: 8638848
     collection_order: release
     sort_title: "!040_Dark Universe"
+    summary: Originally conceived as a shared cinematic universe that was officially titled the Dark Universe, with multiple crossovers and inter-connectivity between films, the label is now used colloquially by some media outlets to refer to Universal Pictures' rebooted franchises. Conceptualized as a shared universe, the studio had announced the projects in development with a press release announcing the intellectual property's title, a trailer, casting announcements, and official theme music.
   Dave Chappelle:
     trakt_list: https://trakt.tv/users/xcynicalcypher/lists/dave-chappelle-standup?sort=released,desc
     collection_order: release
@@ -252,17 +253,17 @@ collections:
     collection_order: release
     summary: The Ryanverse franchise focuses on the character Jack Ryan, a fictional CIA analyst created in 1984 by American author Tom Clancy, who featured him in fourteen novels. It also features CIA operative John Clark and The Campus, a covert counter-terrorism and intelligence organization.
   Transformers:
-    trakt_list: https://trakt.tv/users/martheo/lists/transformers?sort=rank,asc
+    mdblist_list: https://mdblist.com/lists/michael0deon/transformers-all
     sort_title: "!040_Transformers"
     collection_order: release
     summary: A series of films existing in Hasbro's Transformers Universe centered around two groups of alien robots that have the ability to transform into mechanical objects of various sizes as disguises to prevent being discovered.
   Walt Disney Animation:
-    trakt_list: https://trakt.tv/users/bubbles-prior/lists/walt-disney-animations?sort=rank,asc
+    mdblist_list: https://mdblist.com/lists/mjc3bb/disney-animation
     sort_title: "!070_Walt Disney Animation"
     collection_order: release.desc
     summary: Movies produced by Walt Disney Animation Studios. This collection includes only feature film presentations.
   Walt Disney (Live-Action) Remakes:
-    trakt_list: https://trakt.tv/users/liudvikas/lists/walt-disney-live-action?sort=released,asc
+    mdblist_list: https://mdblist.com/lists/oscar69420/disney-live-action-remakes
     sort_title: "!070_Walt Disney (Live-Action) Remakes"
     collection_order: release.desc
     summary: Movies produced by Walt Disney Studios as Live-Action versions of Disney Animated films.

@@ -1,10 +1,10 @@
 collections:
   A24:
-    trakt_list: https://trakt.tv/users/threespoons/lists/a24?sort=rank,asc
+    mdblist_list: https://mdblist.com/lists/notamongo5/a24-series
     collection_order: release.desc
     summary: A24 is an American independent entertainment company that specializes in film and television production, as well as film distribution.
   Adult Swim:
-    trakt_list: https://trakt.tv/users/jmastab/lists/adult-swim?sort=title,asc
+    mdblist_list: https://mdblist.com/lists/ppboy/adult-swim
     sort_title: "!030_Adult Swim"
     collection_order: release.desc
     summary: Shows streaming on Adult Swim.
@@ -154,12 +154,12 @@ collections:
     collection_order: release
     summary: The Ryanverse franchise focuses on the character Jack Ryan, a fictional CIA analyst created in 1984 by American author Tom Clancy, who featured him in fourteen novels. It also features CIA operative John Clark and The Campus, a covert counter-terrorism and intelligence organization.
   Transformers:
-    trakt_list: https://trakt.tv/users/martheo/lists/transformers?sort=rank,asc
+    mdblist_list: https://mdblist.com/lists/purple_smurf/transformers
     sort_title: "!040_Transformers"
-    collection_order: release.desc
+    collection_order: release
     summary: A series of films existing in Hasbro's Transformers Universe centered around two groups of alien robots that have the ability to transform into mechanical objects of various sizes as disguises to prevent being discovered.
   Vikings:
-    trakt_list: https://trakt.tv/users/blazin887/lists/vikings?sort=rank,asc
+    tmdb_list: 8638851
     collection_order: release
     summary: "Vikings Collection containing the TV show Vikings and it's sequel show, Vikings: Valhalla."
   Vought Cinematic Universe:
