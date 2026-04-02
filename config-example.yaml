@@ -16,18 +16,16 @@ libraries:                       # This is called out once within the config.yml
     - default: universe
       template_variables:
         collection_order: release
-        exclude: dcu
-        append_data:
-          dcs: DC Studios
+        exclude:
+        - dcu
+        - middle
+        - star
+        - trek
         trakt_list_askew: https://trakt.tv/users/jes-wan/lists/view-askewniverse?sort=released,desc
         mdblist_list_avp: https://mdblist.com/lists/exoduso/predator-franchise
         trakt_list_dca: https://trakt.tv/users/sergeyhist/lists/dc-animation?sort=released,asc
-        mdblist_list_dcs: https://mdblist.com/lists/lookshinji/dc-studios
         mdblist_list_marvel: https://mdblist.com/lists/fa11en82/in-association-with-marvel
         mdblist_list_mcu: https://mdblist.com/lists/mmozeiko/marvel-cinematic-universe
-        mdblist_list_middle: https://mdblist.com/lists/andyhawks/universe-middle-earth
-        mdblist_list_star: https://mdblist.com/lists/lookshinji/star-wars-universe
-        mdblist_list_trek: https://mdblist.com/lists/lookshinji/star-trek
         mdblist_list_xmen: https://mdblist.com/lists/venkatjampani/xmen-x9ul57pzlt
     - default: seasonal
       template_variables:
@@ -58,6 +56,12 @@ libraries:                       # This is called out once within the config.yml
         - 11127:    # Starship Troopers 3: Marauder
         - 114478:   # Starship Troopers: Invasion
         - 460790:   # Starship Troopers: Traitor of Mars
+        movie_8537: # Superman Collection
+        - 1924:     # Superman: The Movie
+        - 8536:     # Superman II
+        - 9531:     # Superman III
+        - 11411:    # Superman IV: The Quest for Peace
+        - 1452:     # Superman Returns
         exclude:
         - 192492    # The Jack Ryan Collection
         - 1445665   # Starship Troopers (Animated) Collection
@@ -74,6 +78,8 @@ libraries:                       # This is called out once within the config.yml
         - 261590    # Living Dead Collection
         - 944437    # Survival of the Dead Collection
         - 9743      # The Hannibal Lecter Collection
+        - 1584888   # The Miranda Green Mysteries Collection
+        - 141290    # The Lord of the Rings (Animated) Collection
     - folder: config/moviecollections
       # see the wiki for how to use local files, folders, URLs, or files from git
     remove_overlays: false            ## <<< ADD THIS LINE
@@ -110,19 +116,18 @@ libraries:                       # This is called out once within the config.yml
     - default: universe
       template_variables:
         collection_order: release
-        exclude: dcu
+        exclude:
+        - dcu
+        - middle
+        - star
+        - trek
         append_data:
-          dcs: DC Studios
           twd: The Walking Dead
         mdblist_list_arrow: https://mdblist.com/lists/lookshinji/arrowverse
         mdblist_list_avp: https://mdblist.com/lists/exoduso/predator-franchise
         trakt_list_dca: https://trakt.tv/users/sergeyhist/lists/dc-animation?sort=released,asc
-        mdblist_list_dcs: https://mdblist.com/lists/lookshinji/dc-studios
         mdblist_list_marvel: https://mdblist.com/lists/fa11en82/in-association-with-marvel
         mdblist_list_mcu: https://mdblist.com/lists/mmozeiko/marvel-cinematic-universe
-        mdblist_list_middle: https://mdblist.com/lists/kayaaron13/middle-earth
-        mdblist_list_star: https://mdblist.com/lists/lookshinji/star-wars-universe
-        mdblist_list_trek: https://mdblist.com/lists/lookshinji/star-trek
         trakt_list_twd: https://trakt.tv/users/myrobin/lists/walking-dead?sort=rank,asc
         mdblist_list_xmen: https://mdblist.com/lists/venkatjampani/xmen-x9ul57pzlt
     - default: separator_award
