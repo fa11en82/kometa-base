@@ -37,7 +37,7 @@ collections:
     collection_order: release
     summary: Follows the trials of the Colonial Fleet vessel Battlestar Galactica as it leads the last remaining humans on a search for Earth. It's been 40 years since the 12 colonies of mankind have heard from their progeny, the Cylons -- robotic creatures who rose up and declared war on their masters, then disappeared. In a sudden, devastating strike, the Cylons return and lay waste to the colonies, aided by human-looking Cylon variants and an unwitting fifth columnist. The attack forces Commander William Adama to call into action his museum-piece warship, the Battlestar Galactica, and soon its company of hotshot fighter pilots is blasting away at the invaders. But their best efforts can't prevent the colonies' obliteration. Fleeing the Cylon genocide, the Galactica leads a rag-tag fleet of survivors on a lonely quest to find humanity's fabled 13th colony -- a planet known as Earth.
   Berserk:
-    trakt_list: https://trakt.tv/users/drachenplatinum/lists/beserk-series?sort=title,asc
+    tmdb_list: 8642453
     collection_order: release
     summary: Guts, renowned as the "Black Swordsman", is a former mercenary and branded wanderer who travels the world in a constant internal struggle between pursuing his own ends and upholding his attachments to those dear to him. At one time driven solely by his will to survive, Guts finds purpose in life upon joining the Band of the Falcon, greatly helping in the faction's storied successes during the Hundred-Year War as captain of the band's raiders. He eventually becomes dissatisfied with clinging to Griffith's dream and departs from the band in pursuit of his own. Following the horrors of the Eclipse prompted by Griffith, Guts embarks on a two-year war against the God Hand and apostles, becoming increasingly embittered on his one-track quest for retribution. He in time realizes protecting his regressed lover is more important to him, as well as something he cannot do alone, and thus puts aside his quest for revenge while fostering camaraderie with new companions.
   Bleach:
@@ -90,6 +90,10 @@ collections:
     collection_order: release
     sort_title: "!040_DC Extended Universe"
     summary: The DC Extended Universe (DCEU) or the Snyderverse and designated as the reality Earth-1 within the Multiverse system was a collection of interconnected films and other media based on characters that appear in publications by DC Comics, produced by Warner Bros. and DC Studios. The universe largely spans films, though many tie-in media have been produced, such as comics, novels, guidebooks, short films, and video games. The DCEU is a loose adaptation of the DC Universe (DCU) and features a shared universe, much like the original DC Universe in comic books.
+  DC Studios:
+    tmdb_list: 8642250
+    collection_order: release
+    sort_title: "!040_DC Studios"
   Dragon Ball:
     trakt_list: https://trakt.tv/users/yoru14/lists/dragon-ball?sort=rank,asc
     collection_order: release
@@ -177,6 +181,10 @@ collections:
     tmdb_person: 19303
     sort_title: "!150_Kevin Smith"
     summary: Movies directed by Kevin Smith.
+  The Lord of the Rings (Animated):
+    tmdb_list: 8641809
+    sort_title: "Lord of the Rings (Animated)"
+    summary: A collection of animated films based on J.R.R. Tolkein's Middle-earth.
   Lucasfilm Ltd.:
     trakt_list: https://trakt.tv/users/mdatum/lists/lucasfilms?sort=rank,asc
     sort_title: "!070_Lucasfilm Ltd."
@@ -205,7 +213,7 @@ collections:
     collection_order: release
     summary: A series of films about Miranda Green, who is a florist with a passion for mystery novels, particularly those by Agatha Christie.
   Monsterverse:
-    trakt_list: https://trakt.tv/users/folion/lists/monsterverse?sort=rank,asc
+    tmdb_list: 8642113
     collection_order: release
     sort_title: "!040_Monsterverse"
     summary: The MonsterVerse is an American multimedia franchise and shared fictional universe that is centered on a series of monster films featuring Godzilla and King Kong, produced by Legendary Entertainment and co-produced and distributed by Warner Bros. Pictures.
@@ -214,6 +222,10 @@ collections:
     collection_order: release.desc
     sort_title: "!070_National Lampoon"
     summary: Movies produced or licensed by National Lampoon.
+  Oz:
+    tmdb_list: 8643334
+    collection_order: release
+    summary: A series of films and shows set in the magical Land of Oz.
   PBS:
     mdblist_list: https://mdblist.com/lists/jpdooley01/pbs-movies
     sort_title: "!030_PBS"
@@ -242,6 +254,15 @@ collections:
     tmdb_list: 8573740
     collection_order: release
     summary: "Snoopy Presents is a series of original movies and specials produced by WildBrain and Apple TV+, with a growing library of titles containing characters from Charles Shultz Peanuts franchise. Recent and upcoming films include Snoopy Presents: A Summer Musical (2025), Snoopy Presents: Welcome Home, Franklin (2024), Snoopy Presents: One-of-a-Kind Marcie (2023), Snoopy Presents: Lucy's School (2022), and Snoopy Presents: To Mom (and Dad), with Love (2022)."
+  Star Wars Universe:
+    tmdb_list: 8642239
+    collection_order: release
+    sort_title: "!040_Star Wars"
+    summary: "Star Wars stories are set in a fictional galaxy in the distant past. The franchise is set against a backdrop of galactic conflict involving rebellions, republics and empires, such as the evil Galactic Empire. The central conflict is between the Sith, who use the dark side of the Force, and the Jedi, who use the light side. The franchise includes multiple trilogies, standalone films, animated series, novels, comics and video games that explore different characters and storylines within this expansive universe."
+  Star Trek:
+    tmdb_list: 8642246
+    collection_order: release
+    sort_title: "!040_Star Trek"
   Stargate:
     trakt_list: https://trakt.tv/users/stackguard/lists/stargate?sort=rank,asc
     collection_order: release

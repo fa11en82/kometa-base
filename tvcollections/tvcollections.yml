@@ -63,6 +63,10 @@ collections:
     collection_order: release
     sort_title: "!040_DC Extended Universe"
     summary: The DC Extended Universe (DCEU) or the Snyderverse and designated as the reality Earth-1 within the Multiverse system was a collection of interconnected films and other media based on characters that appear in publications by DC Comics, produced by Warner Bros. and DC Studios. The universe largely spans films, though many tie-in media have been produced, such as comics, novels, guidebooks, short films, and video games. The DCEU is a loose adaptation of the DC Universe (DCU) and features a shared universe, much like the original DC Universe in comic books.
+  DC Studios:
+    tmdb_list: 8642250
+    collection_order: release
+    sort_title: "!040_DC Studios"
   Dexter:
     trakt_list: https://trakt.tv/users/planetjimbo/lists/dexter-collection?sort=rank,asc
     collection_order: release
@@ -123,10 +127,14 @@ collections:
     collection_order: release
     sort_title: "!040_Middle Earth"
   Monsterverse:
-    trakt_list: https://trakt.tv/users/folion/lists/monsterverse?sort=rank,asc
+    tmdb_list: 8642113
     collection_order: release
     sort_title: "!040_Monsterverse"
     summary: The MonsterVerse is an American multimedia franchise and shared fictional universe that is centered on a series of monster films featuring Godzilla and King Kong, produced by Legendary Entertainment and co-produced and distributed by Warner Bros. Pictures.
+  Oz:
+    tmdb_list: 8643334
+    collection_order: release
+    summary: A series of films and shows set in the magical Land of Oz.
   PBS:
     mdblist_list: https://mdblist.com/lists/jpdooley01/pbs-shows
     sort_title: "!030_PBS"
@@ -142,6 +150,15 @@ collections:
     sort_title: "!070_Pixar"
     collection_order: release.desc
     summary: TV Shows produced by Pixar Animation.
+  Star Wars Universe:
+    tmdb_list: 8642239
+    collection_order: release
+    sort_title: "!040_Star Wars"
+    summary: "Star Wars stories are set in a fictional galaxy in the distant past. The franchise is set against a backdrop of galactic conflict involving rebellions, republics and empires, such as the evil Galactic Empire. The central conflict is between the Sith, who use the dark side of the Force, and the Jedi, who use the light side. The franchise includes multiple trilogies, standalone films, animated series, novels, comics and video games that explore different characters and storylines within this expansive universe."
+  Star Trek:
+    tmdb_list: 8642246
+    collection_order: release
+    sort_title: "!040_Star Trek"
   Stargate:
     trakt_list: https://trakt.tv/users/stackguard/lists/stargate?sort=rank,asc
     collection_order: release

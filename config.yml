@@ -1,0 +1,361 @@
+## This file is a template remove the .template to use the file
+
+libraries:                       # This is called out once within the config.yml file
+  Movies:                        # Each library must match the Plex library name
+    collection_files:
+    - default: basic                 # This is a file within the defaults folder in the Repository
+    - default: imdb                  # This is a file within the defaults folder in the Repository
+      template_variables:
+        use_lowest: false
+        visible_library_top: true
+        visible_home_top: true
+        visible_shared_top: true
+    - default: streaming
+      template_variables:
+        collection_order: release
+    - default: universe
+      template_variables:
+        collection_order: release
+        exclude:
+        - dcu
+        - middle
+        - star
+        - trek
+        trakt_list_askew: https://trakt.tv/users/jes-wan/lists/view-askewniverse?sort=released,desc
+        mdblist_list_avp: https://mdblist.com/lists/exoduso/predator-franchise
+        trakt_list_dca: https://trakt.tv/users/sergeyhist/lists/dc-animation?sort=released,asc
+        mdblist_list_marvel: https://mdblist.com/lists/fa11en82/in-association-with-marvel
+        mdblist_list_mcu: https://mdblist.com/lists/mmozeiko/marvel-cinematic-universe
+        mdblist_list_xmen: https://mdblist.com/lists/venkatjampani/xmen-x9ul57pzlt
+    - default: seasonal
+      template_variables:
+        emoji: ''
+        collection_section: '025'
+    - default: based
+      template_variables:
+        collection_order: release.desc
+    - default: separator_award
+    - default: oscars
+      template_variables:
+        use_year_collections: false
+        collection_order: release.desc
+    - default: bafta
+      template_variables:
+        use_year_collections: false
+        collection_order: release.desc
+    - default: nfr
+      template_variables:
+        use_year_collections: false
+        collection_order: release.desc
+    - default: franchise
+      template_variables:
+        collection_mode: default
+        movie_10522: # Starship Troopers Collection
+        - 563:      # Starship Troopers
+        - 10304:    # Starship Troopers 2: Hero of the Federation
+        - 11127:    # Starship Troopers 3: Marauder
+        - 114478:   # Starship Troopers: Invasion
+        - 460790:   # Starship Troopers: Traitor of Mars
+        movie_8537: # Superman Collection
+        - 1924:     # Superman: The Movie
+        - 8536:     # Superman II
+        - 9531:     # Superman III
+        - 11411:    # Superman IV: The Quest for Peace
+        - 1452:     # Superman Returns
+        exclude:
+        - 192492    # The Jack Ryan Collection
+        - 1445665   # Starship Troopers (Animated) Collection
+        - 893713    # Sword Art Online Collection
+        - 388790    # Heaven's Lost Property Collection
+        - 118415    # Berserk: Golden Age Arc Collection
+        - 383987    # Attack on Titan: Animation Collection
+        - 961121    # Eureka Seven Hi-Evolution Collection
+        - 91697     # Battlestar Galactica (Reboot) Collection
+        - 754601    # LUPIN THE IIIRD Collection
+        - 1143843   # Lupin the Third vs Detective Conan Collection
+        - 1185967   # Lupin the Third Collection
+        - 23497     # Bleach Collection
+        - 261590    # Living Dead Collection
+        - 944437    # Survival of the Dead Collection
+        - 9743      # The Hannibal Lecter Collection
+        - 1584888   # The Miranda Green Mysteries Collection
+        - 141290    # The Lord of the Rings (Animated) Collection
+    - folder: config/moviecollections
+      # see the wiki for how to use local files, folders, URLs, or files from git
+    remove_overlays: false            ## <<< ADD THIS LINE
+    overlay_files:                         ## <<< ADD THIS LINE
+    - default: resolution
+      template_variables:
+        use_4k_dvhdrplus: true
+        use_4k_dvhdr: true
+        use_4k_plus: true
+        use_4k_dv: true
+        use_4k_hlg: true
+        use_4k_hdr: true
+        use_4k: true
+        use_1080p_dvhdrplus: false
+        use_1080p_dvhdr: false
+        use_1080p_plus: false
+        use_1080p_dv: false
+        use_1080p_hlg: false
+        use_1080p_hdr: false
+        use_1080p: false
+        use_720p: false
+        use_576p: false
+        use_480p: false
+        use_edition: false
+    operations:
+      assets_for_all: true
+  TV Shows:
+    collection_files:
+    - default: basic                   # This is a file within Kometa's defaults folder
+    - default: imdb                    # This is a file within Kometa's defaults folder
+    - default: streaming
+      template_variables:
+        collection_order: release
+    - default: universe
+      template_variables:
+        collection_order: release
+        exclude:
+        - dcu
+        - middle
+        - star
+        - trek
+        append_data:
+          twd: The Walking Dead
+        mdblist_list_arrow: https://mdblist.com/lists/lookshinji/arrowverse
+        mdblist_list_avp: https://mdblist.com/lists/exoduso/predator-franchise
+        trakt_list_dca: https://trakt.tv/users/sergeyhist/lists/dc-animation?sort=released,asc
+        mdblist_list_marvel: https://mdblist.com/lists/fa11en82/in-association-with-marvel
+        mdblist_list_mcu: https://mdblist.com/lists/mmozeiko/marvel-cinematic-universe
+        trakt_list_twd: https://trakt.tv/users/myrobin/lists/walking-dead?sort=rank,asc
+        mdblist_list_xmen: https://mdblist.com/lists/venkatjampani/xmen-x9ul57pzlt
+    - default: separator_award
+    - default: emmy
+      template_variables:
+        use_year_collections: false
+        collection_order: release.desc
+    - default: golden
+      template_variables:
+        use_year_collections: false
+        collection_order: release.desc
+    - default: choice
+      template_variables:
+        use_year_collections: false
+        collection_order: release.desc
+    - default: pca
+      template_variables:
+        use_year_collections: false
+        collection_order: release.desc
+    - default: sag
+      template_variables:
+        use_year_collections: false
+        collection_order: release.desc
+    - default: based
+      template_variables:
+        collection_order: release.desc
+    - folder: config/tvcollections
+      # see the wiki for how to use local files, folders, URLs, or files from git
+    remove_overlays: false            ## <<< ADD THIS LINE
+    overlay_files:
+    - default: resolution
+      template_variables:
+        use_4k_dvhdrplus: true
+        use_4k_dvhdr: true
+        use_4k_plus: true
+        use_4k_dv: true
+        use_4k_hdr: true
+        use_4k: true
+        use_1080p: false
+        use_720p: false
+        use_576p: false
+        use_480p: false
+    - default: resolution
+      template_variables:
+        builder_level: season
+        use_4k: true
+        use_1080p: false
+        use_720p: false
+        use_576p: false
+        use_480p: false
+      # see the wiki for how to use local files, folders, URLs, or files from git
+    operations:
+      assets_for_all: true
+  Anime:
+    collection_files:
+    - default: basic                   # This is a file within Kometa's defaults folder
+    - default: anilist                 # This is a file within Kometa's defaults folder
+    - default: myanimelist             # This is a file within Kometa's defaults folder
+      template_variables:
+        mal_airing: true
+        mal_all: true
+        mal_favorite: true
+        mal_popular: true
+        mal_season: true
+    - default: other_chart             # This is a file within Kometa's defaults folder
+      template_variables:
+        use_anidb: true
+        use_commonsense: false
+        use_stevenlu: false
+        use_pirated: false
+    - default: streaming
+      exclude: showtime
+      template_variables:
+        collection_order: release
+    - folder: config/animecollections
+      # see the wiki for how to use local files, folders, URLs, or files from git
+    remove_overlays: false            ## <<< ADD THIS LINE
+    overlay_files:
+    - default: language_count
+      template_variables:
+        builder_level: episode
+    operations:
+      assets_for_all: true
+playlist_files:
+- file: config/playlistcollection.yml
+  # see the wiki for how to use local files, folders, URLs, or files from git
+settings:
+  run_order:
+  - operations
+  - metadata
+  - collections
+  - overlays
+  cache: true
+  cache_expiration: 15
+  asset_directory:
+  - /config/assets/Anime
+  - /config/assets/Collections
+  - /config/assets/Movies
+  - /config/assets/TV Shows
+  asset_folders: false
+  asset_depth: 0
+  create_asset_folders: false
+  prioritize_assets: true
+  dimensional_asset_rename: false
+  download_url_assets: false
+  show_missing_season_assets: false
+  show_missing_episode_assets: false
+  show_asset_not_needed: true
+  sync_mode: append
+  minimum_items: 2
+  default_collection_order:
+  delete_below_minimum: false
+  delete_not_scheduled: false
+  run_again_delay: 2
+  missing_only_released: false
+  only_filter_missing: false
+  show_unmanaged: true
+  show_unconfigured: true
+  show_filtered: false
+  show_options: true
+  show_missing: true
+  show_missing_assets: true
+  save_report: false
+  tvdb_language: eng
+  ignore_ids:
+  ignore_imdb_ids:
+  item_refresh_delay: 0
+  playlist_sync_to_users: all
+  playlist_exclude_users:
+  playlist_report: false
+  verify_ssl: true
+  custom_repo:
+  overlay_artwork_filetype: jpg
+  overlay_artwork_quality:
+  show_unfiltered: false
+webhooks:                        # Can be individually specified per library as well
+  error: https://discord.com/api/webhooks/1392638504638611596/Z2Xa_Aar5MJ6WJ0mG42OM3AwMGQ76UGokmIebinkIrFz_1ZfDpcThL8i_gYEKbNzr1Q_
+  version: https://discord.com/api/webhooks/1391557362686361640/SGSRJ3RTFfYdHxlcFQBoAOnbohzCxdU-PtiRh1votIRsEmAapB5sbO0EEX1GO3hH07Ab
+  run_start: https://discord.com/api/webhooks/1391557362686361640/SGSRJ3RTFfYdHxlcFQBoAOnbohzCxdU-PtiRh1votIRsEmAapB5sbO0EEX1GO3hH07Ab
+  run_end: https://discord.com/api/webhooks/1391557362686361640/SGSRJ3RTFfYdHxlcFQBoAOnbohzCxdU-PtiRh1votIRsEmAapB5sbO0EEX1GO3hH07Ab
+  changes: https://discord.com/api/webhooks/1391557362686361640/SGSRJ3RTFfYdHxlcFQBoAOnbohzCxdU-PtiRh1votIRsEmAapB5sbO0EEX1GO3hH07Ab
+  delete: https://discord.com/api/webhooks/1391557362686361640/SGSRJ3RTFfYdHxlcFQBoAOnbohzCxdU-PtiRh1votIRsEmAapB5sbO0EEX1GO3hH07Ab
+plex:                            # Can be individually specified per library as well; REQUIRED for the script to run
+  url: http://192.168.1.22:32400
+  token: ZPxYLzdgXBmf4afuagxm
+  timeout: 60
+  db_cache:
+  clean_bundles: false
+  empty_trash: false
+  optimize: false
+  verify_ssl:
+tmdb:                            # REQUIRED for the script to run
+  apikey: 39333bfa7830c5d1077c0f6923ccd5a7
+  language: en
+  cache_expiration: 60
+  region:
+tautulli:                        # Can be individually specified per library as well
+  url: https://tautulli.f8nas.org
+  apikey: 56f32c15319c4588ac451959ccb75aa6
+#github:
+  #token: ################################
+omdb:
+  apikey: 47db6b75
+  cache_expiration: 60
+mdblist:
+  apikey: 8iry1yt3m6gtbm0iw1gyw090y
+  cache_expiration: 60
+#notifiarr:
+  #apikey: ####################################
+anidb:
+  language: en
+  cache_expiration: 60
+  enable_mature: true
+#radarr:                          # Can be individually specified per library as well
+  #url: http://192.168.1.12:7878
+  #token: ################################
+  #add_missing: false
+  #add_existing: false
+  #root_folder_path: S:/Movies
+  #monitor: true
+  #availability: released
+  #quality_profile: HD-1080p
+  #tag:
+  #search: false
+  #radarr_path:
+  #plex_path:
+  #upgrade_existing: false
+  #ignore_cache: false
+  #monitor_existing: false
+#sonarr:                          # Can be individually specified per library as well
+  #url: http://192.168.1.12:8989
+  #token: ################################
+  #add_missing: false
+  #add_existing: false
+  #root_folder_path: S:/TV Shows
+  #monitor: all
+  #quality_profile: HD-1080p
+  #language_profile: English
+  #series_type: standard
+  #season_folder: true
+  #tag:
+  #search: false
+  #cutoff_search: false
+  #sonarr_path:
+  #plex_path:
+  #upgrade_existing: false
+  #ignore_cache: false
+  #monitor_existing: false
+trakt:
+  client_id: e9ec254c6be7fae1b1a805e2055b1028b68a000619772648aa402dc4dafdcca0
+  client_secret: e35713ff4889ffeeecce275b9593df7eb19bd54fdae43683d3d6851898078766
+  authorization:
+    access_token: daefd38442bfe5284fdc646dd4cea24366fd21f887acaee58df8a72000b00db5
+    token_type: Bearer
+    expires_in: 604800
+    refresh_token: 6cef0922dd5da21bddd6eaf640becaae2cf3be8fdf6c09faabc28b62d76ef710
+    scope: public
+    created_at: 1774977630
+  pin: f5872bc0
+  force_refresh:
+mal:
+  client_id: 571b7f7f6ea5da075bea92f061adef58
+  client_secret: 1770d60d8d4d2ca966e66da69ee1b5033205a9e910f8d40c616818c427864132
+  authorization:
+    # everything below is autofilled by the script
+    access_token: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjIzZTg5YWVmYTIzMzM2ZTI1NmM0MzcxMTEwOWRlYTc5OTVkZTA3ZjNiMzcxNWY1OTViOTY4ZmM0ZWJlNjEwN2M1ZTY1MGU5MTdkMjE5ZjEyIn0.eyJhdWQiOiI1NzFiN2Y3ZjZlYTVkYTA3NWJlYTkyZjA2MWFkZWY1OCIsImp0aSI6IjIzZTg5YWVmYTIzMzM2ZTI1NmM0MzcxMTEwOWRlYTc5OTVkZTA3ZjNiMzcxNWY1OTViOTY4ZmM0ZWJlNjEwN2M1ZTY1MGU5MTdkMjE5ZjEyIiwiaWF0IjoxNzcyODc3NjQ4LCJuYmYiOjE3NzI4Nzc2NDgsImV4cCI6MTc3NTU1MjQ0OCwic3ViIjoiMTc5MjUwNDEiLCJzY29wZXMiOltdfQ.HmwExzz08ZaiFUDVzA2-zNUfat6PWlwylqmUyNrMwBKq58df_SxOLQ2YEFap_IOCpeDpoLY4NmtR5Jo5j7pYAZiNyKEHzwCFbW7PhZrwYON1zwW1pSP_Xm6zu4e8S9rfvlz57PwGvmYlp0jfnvirsRDprcgB9VqIAtkwj5LHK4Av8Nm3BLMiX7QQswRo3NscxtEdDWTY0kxJCOlKOiOJgy9IdhTqYJh0EuAo83dhk-H3iWPigwhWB4H5Nksmdj7-CH_a6tBGkBg7pdI8iMpwESdl-6LSqXZdSWMJJP0VYASjrI-s3GxYPYKbEQCQYbOoZEaSqwxAYEp1CoeCNPI_Hg
+    token_type: Bearer
+    expires_in: 2674800
+    refresh_token: def50200149a22a63a4d9245a816b2e049f76451ce813adafdf36b55b6f12a0990e3278fac4b3b0207be83a8d5ed34722d85604e1801edde11ab95567197e09dd8b0910b5b71c52ef5d5dcfa6882382b641f10b80f9179c7bf535869ae1d157867543816e8004e02c52b0f4cf478a7601edba36f09f1c128fe705e76670dcd5999ed35740483f7738b82aa0417ee22d5328a315b6ff011d8f7ca31e8e123d590755ead657dbe6c8cc9872e3f10a10fa354d73feee2bede4731b9a71091696f9bbf98af8efe047eb1bb42f721f468f047b89ff0a3952b91fcc966b557ba94ef9dac98739280cb5947db8ba8a8289292ed55a39de4ac07de7d5729c67b80fde4dd75c315195b8ae8bc49949f9cbfe5eca9a27620535409314c00fff33032136b7b5e421a9bbe368cb250cce5dc263e172e1a957409f4e910487c4a2cf3f656a690b4d3611a959c415521cf7826baf2fa48e274779b5644b1687f3f60cb8ddf3bd51df3dca67e509907d3882e29ef178d9f04f5e9b424c725aa94ec745d62f161fcd9665eff964cdc3f4d
+  localhost_url: http://localhost/?code=def502001530bd2e1c4b96bee92ce96ee03cf332a77897a7c50177bdf5fddaa7e61eb804ecf9d0512b8dc748d87783ba4d00e79eabe63f3c3bed10753da0a240bf5ef9abe0f26b0c300b9daa9f4fe76b89516fe106738d35a3abb0d5b31b377bf30db423447bd310dae0c83c3f56bee87c22b1764b9f09f2b07a2011623b8be3a5e5ab53fdc6b478ec9d34e68cce5ed1f20574336d2a6973464bfc01195d74c0d6aeabae8bd901a5787ff04ff81c25303aae89e59db6155a36e52191592af0ef725007f5f84cb88aab3c9ece8f3b90063ef2db532380d3c063e73367b5c3275e17386f4f29a02707e4251ed7b86f9e7a7b0ffbd42218dd9b7f646b288b43ee6f41625b77e21777d0ff1303d2b360d918f5daae323a671534330240d6f6fe49980ce92e6b47af0f2ac4a6f1f908fed2044a4ee8b343f8279a1aba107c24f4005626389cb5c838cb430779986f4b2da6f687b397bdb591cf4df482bf4520b88ba47af47308c8264fca4c19805b525335fdd18c39b20cb85502b4960ab0512b92e192c84c2ced2b888e066bdca6600d4e499ea1329e004c5b9f57c77f9e3f4fe5398417953adede2eed7cf8ada71136e6f8dd28c09871c66f7000a218b718b56de70e23d2b1fbfa209facf3c6192f1a553abd1e9751fe9c4400b9ba7da57a1e0776a88c8ecfba163f99b795
+  cache_expiration: 60
