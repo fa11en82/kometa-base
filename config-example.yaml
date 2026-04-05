@@ -25,8 +25,8 @@ libraries:                       # This is called out once within the config.yml
         mdblist_list_avp: https://mdblist.com/lists/exoduso/predator-franchise
         trakt_list_dca: https://trakt.tv/users/sergeyhist/lists/dc-animation?sort=released,asc
         mdblist_list_marvel: https://mdblist.com/lists/fa11en82/in-association-with-marvel
-        mdblist_list_mcu: https://mdblist.com/lists/mmozeiko/marvel-cinematic-universe
-        mdblist_list_xmen: https://mdblist.com/lists/venkatjampani/xmen-x9ul57pzlt
+        mdblist_list_mcu: https://mdblist.com/lists/fa11en82/marvel-cinematic-universe-mcu-with-one-shots
+        mdblist_list_xmen: https://mdblist.com/lists/nammel/x-men-saga
     - default: seasonal
       template_variables:
         emoji: ''
@@ -80,6 +80,7 @@ libraries:                       # This is called out once within the config.yml
         - 9743      # The Hannibal Lecter Collection
         - 1584888   # The Miranda Green Mysteries Collection
         - 141290    # The Lord of the Rings (Animated) Collection
+        - 925006    # Downton Abbey (Films) Collection
     - folder: config/moviecollections
       # see the wiki for how to use local files, folders, URLs, or files from git
     remove_overlays: false            ## <<< ADD THIS LINE
@@ -127,7 +128,7 @@ libraries:                       # This is called out once within the config.yml
         mdblist_list_avp: https://mdblist.com/lists/exoduso/predator-franchise
         trakt_list_dca: https://trakt.tv/users/sergeyhist/lists/dc-animation?sort=released,asc
         mdblist_list_marvel: https://mdblist.com/lists/fa11en82/in-association-with-marvel
-        mdblist_list_mcu: https://mdblist.com/lists/mmozeiko/marvel-cinematic-universe
+        mdblist_list_mcu: https://mdblist.com/lists/lt3dave/marvel-cinematic-universe-mcu-shows-in-order
         trakt_list_twd: https://trakt.tv/users/myrobin/lists/walking-dead?sort=rank,asc
         mdblist_list_xmen: https://mdblist.com/lists/venkatjampani/xmen-x9ul57pzlt
     - default: separator_award
