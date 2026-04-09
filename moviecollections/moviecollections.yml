@@ -258,11 +258,12 @@ collections:
     tmdb_list: 8642239
     collection_order: release
     sort_title: "!040_Star Wars"
-    summary: "Star Wars stories are set in a fictional galaxy in the distant past. The franchise is set against a backdrop of galactic conflict involving rebellions, republics and empires, such as the evil Galactic Empire. The central conflict is between the Sith, who use the dark side of the Force, and the Jedi, who use the light side. The franchise includes multiple trilogies, standalone films, animated series, novels, comics and video games that explore different characters and storylines within this expansive universe."
+    summary: A long time ago in a galaxy far, far away George Lucas introduced Star Wars and set the stage for science fiction to become pop culture. The franchise is set against a backdrop of galactic conflict involving rebellions, republics and evil empires. The original central conflict is between the Sith, who use the dark side of the force and rule the Empire, and the Jedi, who use the light side and fight to restore the Republic. The franchise includes multiple trilogies, standalone films, animated series, novels, comics and video games that explore different characters and storylines within this expansive universe.
   Star Trek:
     tmdb_list: 8642246
     collection_order: release
     sort_title: "!040_Star Trek"
+    summary: Star Trek is a science fiction media franchise created by Gene Roddenberry that began with the original television series Star Trek in 1966. The franchise has since expanded to include multiple television series, films, novels, comics, and video games. Centered on the United Federation of Planets and its exploratory Starfleet, the narrative follows crews—most notably on the USS Enterprise—exploring the galaxy, interacting with alien species, and addressing moral, technological, and political dilemmas. The central theme of Star Trek is the exploration of space and the human condition, often addressing social and political issues through its storytelling. The franchise is known for its optimistic vision of the future, where humanity has overcome many of its problems and is united in a common goal of exploration and understanding.
   Stargate:
     trakt_list: https://trakt.tv/users/stackguard/lists/stargate?sort=rank,asc
     collection_order: release
