@@ -41,10 +41,18 @@ collections:
     collection_order: release.desc
     sort_title: "!030_HiDive Shows"
     summary: Shows streaming on HiDive.
+  Kino's Journey:
+    tmdb_list: 8642453
+    collection_order: release
+    summary: In Kino's Journey, the protagonist, Kino, who is accompanied by a talking motorcycle named Hermes, travels through a mystical world of many different countries and forests, each unique in its customs and people. She only spends three days and two nights in every town, without exception, on the principle that three days is enough time to learn almost everything important about a place, while leaving time to explore new lands. The recurring theme of the anime and novels is described by the phrase, "The world is not beautiful, therefore it is."
   Mobile Suit Gundam:
     mdblist_list: https://mdblist.com/lists/fa11en82/gundam-franchise
     collection_order: release
     summary: Gundam is a Japanese military science fiction media franchise. Created by Yoshiyuki Tomino and Sunrise (now Bandai Namco Filmworks), the franchise features giant robots, or mecha, with the name "Gundam". The franchise began on April 7, 1979, with Mobile Suit Gundam, a TV series that defined the "real robot" mecha anime genre by featuring giant robots called mobile suits (including the original titular mecha) in a militaristic setting. The popularity of the series and its merchandise spawned a franchise that includes 50 TV series, films and OVAs as well as manga, novels and video games, along with a whole industry of plastic model kits known as Gunpla which makes up 90 percent of the Japanese character plastic-model market.
+  My Hero Academia:
+    tmdb_list: 8649777
+    collection_order: release
+    summary: In a world where people with superpowers (called "Quirks") are the norm, Izuku Midoriya is one of the few who was born without them. Despite this, he still dreams of becoming a great hero like his idol All Might. One day, he has a chance encounter with All Might himself, who sees potential in Izuku and decides to pass on his own Quirk to him. With his newfound powers, Izuku enrolls in U.A. High School, a prestigious academy for aspiring heroes, where he must learn to control his abilities and face various challenges as he strives to become the greatest hero of all time.
   Naruto:
     trakt_list: https://trakt.tv/users/wasmisch77/lists/naruto?sort=rank,asc
     collection_order: release
@@ -58,6 +66,10 @@ collections:
     trakt_list: https://trakt.tv/users/nameiskallie/lists/rwby-collection?sort=rank,asc
     collection_order: release
     summary: In the supernatural universe of Remnant, four strong girls are training to become Huntresses, which are humanity's only hope of defeating the shadowy and threatening creatures known as Grimm.
+  Science Adventure:
+    tmdb_list: 8647678
+    collection_order: release
+    summary: The Science Adventure entries all feature stories in the science fiction genre. They make use of real scientific concepts and theories, but also cross over into fictional territory, using fringe science and urban legends. The series is known for its complex narratives, often involving time travel, parallel universes, and intricate character relationships. The main entries in the Science Adventure series include "Steins;Gate," "Chaos;Head," "Robotics;Notes," and "Occultic;Nine," among others. Each entry explores different scientific themes while maintaining a shared universe and interconnected storylines.
   Sword Art Online:
     trakt_list: https://trakt.tv/users/fa11en82/lists/sword-art-online-chronological-order?sort=rank,asc
     collection_order: release

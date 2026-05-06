@@ -1,6 +1,6 @@
 collections:
   A24:
-    mdblist_list: https://mdblist.com/lists/mdatum/a24
+    trakt_list: https://app.trakt.tv/users/lish408/lists/a24
     collection_order: release.desc
     sort_title: "!070_A24"
     summary: A24 is an American independent entertainment company that specializes in film and television production, as well as film distribution.
@@ -82,7 +82,7 @@ collections:
     collection_order: release
     summary: A collection of Dave Chappelle's comedy shows.
   David Attenborough:
-    trakt_list: https://trakt.tv/users/lezelmaz/lists/david-attenborough?sort=rank,asc
+    mdblist_list: https://mdblist.com/lists/mrsonarrandradarr/david-attenborough-all-movies
     collection_order: release
     summary: A collection of famed naturalist David Attenborough's groundbreaking wildlife documentary series, exploring the rich variety of plant and animal life on the planet. Using a variety of pioneering camera techniques, these documentaries reveal aspects of the natural world that have never been seen on camera before, and that established Attenborough's reputation as the greatest wildlife broadcaster in the world.
   DC Extended Universe:
@@ -203,7 +203,7 @@ collections:
     mdblist_list: https://mdblist.com/lists/mmozeiko/marvel-animated-universe
     collection_order: release
     sort_title: "!040_Marvel Animated Universe"
-  Middle Earth:
+  Middle-Earth:
     tmdb_list: 8641803
     collection_order: release
     sort_title: "!040_Middle Earth"
@@ -217,6 +217,10 @@ collections:
     collection_order: release
     sort_title: "!040_Monsterverse"
     summary: The MonsterVerse is an American multimedia franchise and shared fictional universe that is centered on a series of monster films featuring Godzilla and King Kong, produced by Legendary Entertainment and co-produced and distributed by Warner Bros. Pictures.
+  My Hero Academia:
+    tmdb_list: 8645322
+    collection_order: release
+    summary: In a world where people with superpowers (called "Quirks") are the norm, Izuku Midoriya is one of the few who was born without them. Despite this, he still dreams of becoming a great hero like his idol All Might. One day, he has a chance encounter with All Might himself, who sees potential in Izuku and decides to pass on his own Quirk to him. With his newfound powers, Izuku enrolls in U.A. High School, a prestigious academy for aspiring heroes, where he must learn to control his abilities and face various challenges as he strives to become the greatest hero of all time.
   National Lampoon:
     trakt_list: https://trakt.tv/users/pr1nc1p3/lists/national-lampoon-s?sort=released,desc
     collection_order: release.desc
@@ -242,7 +246,7 @@ collections:
     sort_title: "!040_Pirates of the Caribbean"
     summary: A series of fantasy swashbuckler films based on Walt Disney's theme park ride of the same name. The films follow the adventures of Captain Jack Sparrow and take place in a fictional historical setting; a world ruled by the British Empire, the East India Trading Company and the Spanish Empire, with pirates representing freedom from the ruling powers.
   Pixar:
-    mdblist_list: https://mdblist.com/lists/ancyberturtle/pixar
+    mdblist_list: https://mdblist.com/lists/gigsy/pixar
     sort_title: "!070_Pixar"
     collection_order: release.desc
     summary: Movies produced by Pixar Animation.
