@@ -10,6 +10,8 @@ libraries:                       # This is called out once within the config.yml
         visible_library_top: true
         visible_home_top: true
         visible_shared_top: true
+    - default: tmdb                  # This is a file within the defaults folder in the Repository
+    - default: trakt                 # This is a file within the defaults folder in the Repository
     - default: streaming
       template_variables:
         collection_order: release
@@ -26,7 +28,7 @@ libraries:                       # This is called out once within the config.yml
         trakt_list_dca: https://trakt.tv/users/sergeyhist/lists/dc-animation?sort=released,asc
         mdblist_list_marvel: https://mdblist.com/lists/fa11en82/in-association-with-marvel
         mdblist_list_mcu: https://mdblist.com/lists/fa11en82/marvel-cinematic-universe-mcu-with-one-shots
-        mdblist_list_xmen: https://mdblist.com/lists/nammel/x-men-saga
+        mdblist_list_xmen: https://mdblist.com/lists/venkatjampani/xmen-x9ul57pzlt
     - default: seasonal
       template_variables:
         emoji: ''
@@ -62,6 +64,15 @@ libraries:                       # This is called out once within the config.yml
         - 9531:     # Superman III
         - 11411:    # Superman IV: The Quest for Peace
         - 1452:     # Superman Returns
+        movie_256377: #The Muppets Collection
+        - 64328:    # The Muppets
+        - 145220:   # Muppets Most Wanted
+        - 11176:    # The Muppet Movie
+        - 14900:    # The Great Muppet Caper
+        - 11899:    # The Muppets Take Manhattan
+        - 10437:    # The Muppet Christmas Carol
+        - 10874:    # Muppet Treasure Island
+        - 10208:    # Muppets from Space
         exclude:
         - 192492    # The Jack Ryan Collection
         - 1445665   # Starship Troopers (Animated) Collection
@@ -81,6 +92,13 @@ libraries:                       # This is called out once within the config.yml
         - 1584888   # The Miranda Green Mysteries Collection
         - 141290    # The Lord of the Rings (Animated) Collection
         - 925006    # Downton Abbey (Films) Collection
+        - 1189668   # My Hero Academia Collection
+        - 2344      # The Matrix Collection
+        - 1685143   # Shinkai's Disaster Trilogy Collection
+        - 1677089   # Muppet Films Collection
+        - 1707393   # Iñárritu's Death Trilogy
+        - 1701237   # Eastrail 177 Trilogy
+        - 1721335   # The three flavours Cornetto trilogy
     - folder: config/moviecollections
       # see the wiki for how to use local files, folders, URLs, or files from git
     remove_overlays: false            ## <<< ADD THIS LINE
@@ -101,9 +119,32 @@ libraries:                       # This is called out once within the config.yml
         use_1080p_hlg: false
         use_1080p_hdr: false
         use_1080p: false
+        use_720p_dvhdrplus: false
+        use_720p_dvhdr: false
+        use_720p_plus: false
+        use_720p_dv: false
+        use_720p_hlg: false
+        use_720p_hdr: false
         use_720p: false
+        use_576p_dvhdrplus: false
+        use_576p_dvhdr: false
+        use_576p_plus: false
+        use_576p_dv: false
+        use_576p_hlg: false
+        use_576p_hdr: false
         use_576p: false
+        use_480p_dvhdrplus: false
+        use_480p_dvhdr: false
+        use_480p_plus: false
+        use_480p_dv: false
+        use_480p_hdr: false
         use_480p: false
+        use_dvhdrplus: false
+        use_dvhdr: false
+        use_plus: false
+        use_dv: false
+        use_hlg: false
+        use_hdr: false
         use_edition: false
     operations:
       assets_for_all: true
@@ -111,6 +152,8 @@ libraries:                       # This is called out once within the config.yml
     collection_files:
     - default: basic                   # This is a file within Kometa's defaults folder
     - default: imdb                    # This is a file within Kometa's defaults folder
+    - default: tmdb                    # This is a file within the defaults folder in the Repository
+    - default: trakt                   # This is a file within the defaults folder in the Repository
     - default: streaming
       template_variables:
         collection_order: release
@@ -165,20 +208,87 @@ libraries:                       # This is called out once within the config.yml
         use_4k_dvhdr: true
         use_4k_plus: true
         use_4k_dv: true
+        use_4k_hlg: true
         use_4k_hdr: true
         use_4k: true
+        use_1080p_dvhdrplus: false
+        use_1080p_dvhdr: false
+        use_1080p_plus: false
+        use_1080p_dv: false
+        use_1080p_hlg: false
+        use_1080p_hdr: false
         use_1080p: false
+        use_720p_dvhdrplus: false
+        use_720p_dvhdr: false
+        use_720p_plus: false
+        use_720p_dv: false
+        use_720p_hlg: false
+        use_720p_hdr: false
         use_720p: false
+        use_576p_dvhdrplus: false
+        use_576p_dvhdr: false
+        use_576p_plus: false
+        use_576p_dv: false
+        use_576p_hlg: false
+        use_576p_hdr: false
         use_576p: false
+        use_480p_dvhdrplus: false
+        use_480p_dvhdr: false
+        use_480p_plus: false
+        use_480p_dv: false
+        use_480p_hdr: false
         use_480p: false
+        use_dvhdrplus: false
+        use_dvhdr: false
+        use_plus: false
+        use_dv: false
+        use_hlg: false
+        use_hdr: false
+        use_edition: false
     - default: resolution
       template_variables:
         builder_level: season
+        use_4k_dvhdrplus: true
+        use_4k_dvhdr: true
+        use_4k_plus: true
+        use_4k_dv: true
+        use_4k_hlg: true
+        use_4k_hdr: true
         use_4k: true
+        use_1080p_dvhdrplus: false
+        use_1080p_dvhdr: false
+        use_1080p_plus: false
+        use_1080p_dv: false
+        use_1080p_hlg: false
+        use_1080p_hdr: false
         use_1080p: false
+        use_720p_dvhdrplus: false
+        use_720p_dvhdr: false
+        use_720p_plus: false
+        use_720p_dv: false
+        use_720p_hlg: false
+        use_720p_hdr: false
         use_720p: false
+        use_576p_dvhdrplus: false
+        use_576p_dvhdr: false
+        use_576p_plus: false
+        use_576p_dv: false
+        use_576p_hlg: false
+        use_576p_hdr: false
         use_576p: false
+        use_480p_dvhdrplus: false
+        use_480p_dvhdr: false
+        use_480p_plus: false
+        use_480p_dv: false
+        use_480p_hdr: false
         use_480p: false
+        use_dvhdrplus: false
+        use_dvhdr: false
+        use_plus: false
+        use_dv: false
+        use_hlg: false
+        use_hdr: false
+        use_edition: false
       # see the wiki for how to use local files, folders, URLs, or files from git
     operations:
       assets_for_all: true
@@ -213,8 +323,7 @@ libraries:                       # This is called out once within the config.yml
     operations:
       assets_for_all: true
 playlist_files:
-- file: config/playlistcollection.yml
-  # see the wiki for how to use local files, folders, URLs, or files from git
+- file: config/playlistcollection.yml     # see the wiki for how to use local files, folders, URLs, or files from git
 settings:
   run_order:
   - operations
@@ -264,6 +373,7 @@ settings:
   overlay_artwork_filetype: jpg
   overlay_artwork_quality:
   show_unfiltered: false
+  auto_sort_hubs:
   webhooks:                          # Can be individually specified per library as well
   changes:
   delete:
