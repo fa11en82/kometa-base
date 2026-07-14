@@ -42,7 +42,7 @@ collections:
     sort_title: "!030_HiDive Shows"
     summary: Shows streaming on HiDive.
   Kino's Journey:
-    tmdb_list: 8642453
+    tmdb_list: 8649777
     collection_order: release
     summary: In Kino's Journey, the protagonist, Kino, who is accompanied by a talking motorcycle named Hermes, travels through a mystical world of many different countries and forests, each unique in its customs and people. She only spends three days and two nights in every town, without exception, on the principle that three days is enough time to learn almost everything important about a place, while leaving time to explore new lands. The recurring theme of the anime and novels is described by the phrase, "The world is not beautiful, therefore it is."
   Mobile Suit Gundam:
@@ -50,7 +50,7 @@ collections:
     collection_order: release
     summary: Gundam is a Japanese military science fiction media franchise. Created by Yoshiyuki Tomino and Sunrise (now Bandai Namco Filmworks), the franchise features giant robots, or mecha, with the name "Gundam". The franchise began on April 7, 1979, with Mobile Suit Gundam, a TV series that defined the "real robot" mecha anime genre by featuring giant robots called mobile suits (including the original titular mecha) in a militaristic setting. The popularity of the series and its merchandise spawned a franchise that includes 50 TV series, films and OVAs as well as manga, novels and video games, along with a whole industry of plastic model kits known as Gunpla which makes up 90 percent of the Japanese character plastic-model market.
   My Hero Academia:
-    tmdb_list: 8649777
+    tmdb_list: 8645322
     collection_order: release
     summary: In a world where people with superpowers (called "Quirks") are the norm, Izuku Midoriya is one of the few who was born without them. Despite this, he still dreams of becoming a great hero like his idol All Might. One day, he has a chance encounter with All Might himself, who sees potential in Izuku and decides to pass on his own Quirk to him. With his newfound powers, Izuku enrolls in U.A. High School, a prestigious academy for aspiring heroes, where he must learn to control his abilities and face various challenges as he strives to become the greatest hero of all time.
   Naruto:
@@ -63,7 +63,7 @@ collections:
     collection_order: release.desc
     summary: Shows streaming on Netflix.
   RWBY:
-    trakt_list: https://trakt.tv/users/nameiskallie/lists/rwby-collection?sort=rank,asc
+    tmdb_list: 8653507
     collection_order: release
     summary: In the supernatural universe of Remnant, four strong girls are training to become Huntresses, which are humanity's only hope of defeating the shadowy and threatening creatures known as Grimm.
   Science Adventure:
@@ -71,6 +71,10 @@ collections:
     collection_order: release
     summary: The Science Adventure entries all feature stories in the science fiction genre. They make use of real scientific concepts and theories, but also cross over into fictional territory, using fringe science and urban legends. The series is known for its complex narratives, often involving time travel, parallel universes, and intricate character relationships. The main entries in the Science Adventure series include "Steins;Gate," "Chaos;Head," "Robotics;Notes," and "Occultic;Nine," among others. Each entry explores different scientific themes while maintaining a shared universe and interconnected storylines.
   Sword Art Online:
-    trakt_list: https://trakt.tv/users/fa11en82/lists/sword-art-online-chronological-order?sort=rank,asc
+    tmdb_list: 8657119
     collection_order: release
     summary: In the near future, a Virtual Reality Massive Multiplayer Online Role-Playing Game (VRMMORPG) called Sword Art Online has been released where players control their avatars with their bodies using a piece of technology called Nerve Gear. One day, players discover they cannot log out, as the game creator is holding them captive unless they reach the 100th floor of the game's tower and defeat the final boss. However, if they die in the game, they die in real life. Their struggle for survival starts now.
+  That Time I Got Reincarnated as a Slime:
+    tmdb_list: 8653985
+    collection_order: release
+    summary: A collection of movies and shows from the "That Time I Got Reincarnated as a Slime" franchise. The story follows Mikami Satoru, an employee of a megacorporation, who is stabbed by an assassin in the street and is reborn in a parallel world... But he is reborn as a slime! With his new powers, he sets out to create a world where all species can live happily together. Along the way, he befriends various characters and builds a community in the new world, facing challenges and adventures as he strives to achieve his goal.

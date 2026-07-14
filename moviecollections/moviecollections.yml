@@ -10,12 +10,12 @@ collections:
     collection_order: release.desc
     summary: Movies on Adult Swim.
   Agatha Christie Mystery:
-    trakt_list: https://trakt.tv/users/ravensorb/lists/agatha-christie?sort=released,desc
+    tmdb_writer: 47562
     sort_title: "Agatha Christie Mystery Collection"
     collection_order: release
     summary: Collection of movies and shows based on the works of Agatha Christie.
   Anne Rice's Immortal Universe:
-    trakt_list: https://trakt.tv/users/fa11en82/lists/anne-rice-universe?sort=released,asc
+    tmdb_list: 8657185
     collection_order: release
     sort_title: "!040_Anne Rice's Immortal Universe"
     summary: Movies and Shows based on Anne Rice's Vampire Chronicles and Mayfair Witches books.
@@ -67,18 +67,13 @@ collections:
     collection_order: release
     sort_title: "!040_Cornetto Trilogy"
     summary: The Three Flavours Cornetto trilogy (also known as the Cornetto trilogy or the Blood and Ice Cream trilogy) is an anthology series of British comedic genre films directed by Edgar Wright, written by Wright and Simon Pegg, produced by Nira Park, and starring Pegg and Nick Frost. The trilogy consists of Shaun of the Dead (2004), Hot Fuzz (2007), and The World's End (2013).
-  The Dead:
-    sort_title: "Dead"
-    tmdb_list: 8563729
-    collection_order: release
-    summary: The Dead Collection is the remakes and originals of zombie action-horror films created by George A. Romero beginning with the 1968 film Night of the Living Dead directed by Romero and co-written with John A. Russo. The franchise predominantly centers on different groups of people attempting to survive during the outbreak and evolution of a zombie apocalypse.
   Dark Universe:
     tmdb_list: 8638848
     collection_order: release
     sort_title: "!040_Dark Universe"
     summary: Originally conceived as a shared cinematic universe that was officially titled the Dark Universe, with multiple crossovers and inter-connectivity between films, the label is now used colloquially by some media outlets to refer to Universal Pictures' rebooted franchises. Conceptualized as a shared universe, the studio had announced the projects in development with a press release announcing the intellectual property's title, a trailer, casting announcements, and official theme music.
   Dave Chappelle:
-    trakt_list: https://trakt.tv/users/xcynicalcypher/lists/dave-chappelle-standup?sort=released,desc
+    tmdb_list: 8660171
     collection_order: release
     summary: A collection of Dave Chappelle's comedy shows.
   David Attenborough:
@@ -94,6 +89,11 @@ collections:
     tmdb_list: 8642250
     collection_order: release
     sort_title: "!040_DC Studios"
+  The Dead:
+    sort_title: "Dead"
+    tmdb_list: 8563729
+    collection_order: release
+    summary: The Dead Collection is the remakes and originals of zombie action-horror films created by George A. Romero beginning with the 1968 film Night of the Living Dead directed by Romero and co-written with John A. Russo. The franchise predominantly centers on different groups of people attempting to survive during the outbreak and evolution of a zombie apocalypse.
   Dragon Ball:
     trakt_list: https://trakt.tv/users/yoru14/lists/dragon-ball?sort=rank,asc
     collection_order: release
@@ -108,6 +108,19 @@ collections:
     collection_order: release
     sort_title: "!040_Dune Universe"
     summary: Dune is a science fiction novel written by Frank Herbert and published in 1965. A joint winner of the 1966 Hugo Award and the winner of the first Nebula Award for Best Novel, Dune is popularly considered one of the greatest science fiction novels of all time, is frequently cited as the best-selling science fiction novel in history and was the first bestselling hardcover science fiction novel ever.
+  Eastrail 177 Trilogy:
+    tmdb_list: 8661333
+    collection_order: release
+    sort_title: "Eastrail 177"
+    summary: The Eastrail 177 Trilogy, also known as the Unbreakable trilogy is an American superhero thriller and psychological horror film series. The trilogy consists of Unbreakable (2000), Split (2016), and Glass (2019), which were all written, produced, and directed by M. Night Shyamalan.
+  Edgar Wright (Directing):
+    smart_filter: 
+      all: 
+        director: tmdb
+      sort_by: release.desc
+    tmdb_person: 11090
+    sort_title: "!150_Edgar Wright"
+    summary: Movies directed by Edgar Wright.
   Eureka Seven:
     tmdb_movie: 
       - 843269 # Eureka: Eureka Seven Hi-Evolution (2021)
@@ -146,7 +159,7 @@ collections:
     collection_order: release.desc
     sort_title: "!040_In Association With DC"
   Jack Ryan:
-    trakt_list: https://trakt.tv/users/krissykk/lists/jack-ryan-series?sort=title,asc
+    tmdb_list: 8654855
     sort_title: "Jack Ryan"
     collection_order: release
     summary: John Patrick "Jack" Ryan, Sr. is a fictional character created by Tom Clancy who appears in many of his novels and their respective film adaptations.
@@ -203,6 +216,11 @@ collections:
     mdblist_list: https://mdblist.com/lists/mmozeiko/marvel-animated-universe
     collection_order: release
     sort_title: "!040_Marvel Animated Universe"
+  The Matrix:
+    sort_title: "Matrix"
+    tmdb_list: 8654513
+    collection_order: release
+    summary: The Matrix franchise primarily consists of a tetralogy of science-fiction-action films written and directed by the Wachowskis and produced by Joel Silver. The first film The Matrix was released in March 1999; after its success, two sequels, The Matrix Reloaded and The Matrix Revolutions, were released in 2003. The fourth film The Matrix Resurrections was released in December 2021. The characters and settings of The Matrix fictional universe are further explored in other media, including animation, comic books, and video games.
   Middle-Earth:
     tmdb_list: 8641803
     collection_order: release
@@ -254,6 +272,14 @@ collections:
     tmdb_list: 8632836
     collection_order: release
     summary: The stand-up comedy of Robin Williams.
+  RWBY:
+    tmdb_list: 8653507
+    collection_order: release
+    summary: In the supernatural universe of Remnant, four strong girls are training to become Huntresses, which are humanity's only hope of defeating the shadowy and threatening creatures known as Grimm.
+  Shinkai's Disaster Trilogy:
+    tmdb_list: 8659838
+    collection_order: release
+    summary: A series of films directed by Makoto Shinkai that explore themes of love, loss, and the impact of natural disasters on human relationships. The trilogy includes "Your Name" (2016), "Weathering with You" (2019), and "Suzume" (2022).
   Snoopy Presents:
     tmdb_list: 8573740
     collection_order: release
@@ -279,7 +305,7 @@ collections:
     collection_order: release.desc
     summary: Movies produced by Studio Ghibli.
   Sword Art Online:
-    trakt_list: https://trakt.tv/users/fa11en82/lists/sword-art-online-chronological-order?sort=rank,asc
+    tmdb_list: 8657119
     collection_order: release
     summary: In the near future, a Virtual Reality Massive Multiplayer Online Role-Playing Game (VRMMORPG) called Sword Art Online has been released where players control their avatars with their bodies using a piece of technology called Nerve Gear. One day, players discover they cannot log out, as the game creator is holding them captive unless they reach the 100th floor of the game's tower and defeat the final boss. However, if they die in the game, they die in real life. Their struggle for survival starts now.
   Tom Clancy's Ryanverse:

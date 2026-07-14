@@ -2,6 +2,7 @@ collections:
   A24:
     mdblist_list: https://mdblist.com/lists/notamongo5/a24-series
     collection_order: release.desc
+    sort_title: "!070_A24"
     summary: A24 is an American independent entertainment company that specializes in film and television production, as well as film distribution.
   Adult Swim:
     mdblist_list: https://mdblist.com/lists/ppboy/adult-swim
@@ -14,12 +15,12 @@ collections:
     collection_order: release
     summary: "Adventure Time follows the adventures of a boy named Finn and his best friend and adoptive brother Jake—a dog with the power to change size and shape at will. Finn and Jake live in the post-apocalyptic Land of Ooo, where they interact with Princess Bubblegum, the Ice King, Marceline the Vampire Queen, BMO, and others. It was followed by the Adventure Time: Distant Lands specials and the Adventure Time: Fionna and Cake spin-off, which were released on Max. Two additional spin-offs, entitled Adventure Time: Side Quests and Adventure Time: Heyo BMO, have also been greenlit by Cartoon Network Studios."
   Agatha Christie Mystery:
-    trakt_list: https://trakt.tv/users/ravensorb/lists/agatha-christie?sort=released,desc
-    sort_title: "Agatha Christie Mystery Collection"
+    tmdb_writer: 47562
+    sort_title: "Agatha Christie Mystery"
     collection_order: release
     summary: Collection of movies and shows based on the works of Agatha Christie.
   Anne Rice's Immortal Universe:
-    trakt_list: https://trakt.tv/users/fa11en82/lists/anne-rice-universe?sort=released,asc
+    tmdb_list: 8657185
     collection_order: release
     sort_title: "!040_Anne Rice's Immortal Universe"
     summary: Movies and Shows based on Anne Rice's Vampire Chronicles and Mayfair Witches books.
@@ -40,6 +41,10 @@ collections:
     sort_title: "!030_BBC Shows"
     collection_order: release.desc
     summary: Shows streaming on BBC.
+  Being Human:
+    tmdb_list: 8655792
+    collection_order: release
+    summary: Being Human follows three supernatural roommates—a vampire, a werewolf, and a ghost—who try to suppress their monstrous instincts and pass as normal twenty-somethings in society. Alongside the challenges of sharing an apartment, they navigate double lives, their dark pasts, and relentless pressure from their respective supernatural communities. The original British series aired from 2008 to 2013, while the American adaptation ran from 2011 to 2014. Both versions explore themes of identity, morality, and the struggle for humanity amidst their supernatural conditions.
   Breaking Bad:
     trakt_list: https://trakt.tv/users/pjohnston1/lists/breaking-bad?sort=rank,asc
     collection_order: release
@@ -54,6 +59,10 @@ collections:
     tmdb_list: 8571393
     collection_order: release
     summary: A band of professional voice actors improvises, role-plays and rolls their way through a `Dungeon and Dragons' campaign. The voice actors play a diverse cast of characters, who go on adventures within the kingdom. The show is led by Dungeon Master Matthew Mercer, who creates the world and story for the players to interact with. The group have produced multiple campaigns, one-shots, and special episodes, all set in the same universe but with different characters and storylines. The show has gained a large following for its engaging storytelling, character development, and the chemistry between the cast members. Critical Role has also expanded into other media, including comic books, an animated series, and merchandise.
+  Dave Chappelle:
+    tmdb_list: 8660171
+    collection_order: release
+    summary: A collection of Dave Chappelle's comedy shows.
   David Attenborough:
     trakt_list: https://trakt.tv/users/lezelmaz/lists/david-attenborough?sort=rank,asc
     collection_order: release
@@ -142,6 +151,7 @@ collections:
     summary: Peanuts and Charlie Brown are based on a long-running comic strip drawn and authored by Charles Schulz.
   Pixar:
     mdblist_list: https://mdblist.com/lists/caffnoir/pixar-jswxya0dmq
+    sort_title: "!070_Pixar"
     collection_order: release.desc
     summary: TV Shows produced by Pixar Animation.
   Star Wars Universe:
