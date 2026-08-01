@@ -23,9 +23,7 @@ libraries:                       # This is called out once within the config.yml
         - middle
         - star
         - trek
-        trakt_list_askew: https://trakt.tv/users/jes-wan/lists/view-askewniverse?sort=released,desc
         mdblist_list_avp: https://mdblist.com/lists/exoduso/predator-franchise
-        trakt_list_dca: https://trakt.tv/users/sergeyhist/lists/dc-animation?sort=released,asc
         mdblist_list_marvel: https://mdblist.com/lists/fa11en82/in-association-with-marvel
         mdblist_list_mcu: https://mdblist.com/lists/fa11en82/marvel-cinematic-universe-mcu-with-one-shots
         mdblist_list_xmen: https://mdblist.com/lists/venkatjampani/xmen-x9ul57pzlt
@@ -73,6 +71,10 @@ libraries:                       # This is called out once within the config.yml
         - 10437:    # The Muppet Christmas Carol
         - 10874:    # Muppet Treasure Island
         - 10208:    # Muppets from Space
+        movie_43055: # Conan the Barbarian Collection
+        - 9387:     # Conan the Barbarian
+        - 9610:     # Conan the Destroyer
+        - 37430:    # Conan the Barbarian (2011)
         exclude:
         - 192492    # The Jack Ryan Collection
         - 1445665   # Starship Troopers (Animated) Collection
@@ -167,12 +169,10 @@ libraries:                       # This is called out once within the config.yml
         - trek
         append_data:
           twd: The Walking Dead
-        mdblist_list_arrow: https://mdblist.com/lists/lookshinji/arrowverse
         mdblist_list_avp: https://mdblist.com/lists/exoduso/predator-franchise
-        trakt_list_dca: https://trakt.tv/users/sergeyhist/lists/dc-animation?sort=released,asc
         mdblist_list_marvel: https://mdblist.com/lists/fa11en82/in-association-with-marvel
         mdblist_list_mcu: https://mdblist.com/lists/lt3dave/marvel-cinematic-universe-mcu-shows-in-order
-        trakt_list_twd: https://trakt.tv/users/myrobin/lists/walking-dead?sort=rank,asc
+        mdblist_list_twd: https://mdblist.com/lists/lt3dave/the-walking-dead-universe
         mdblist_list_xmen: https://mdblist.com/lists/venkatjampani/xmen-x9ul57pzlt
     - default: separator_award
     - default: emmy
