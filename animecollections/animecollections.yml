@@ -28,6 +28,10 @@ collections:
     trakt_list: https://trakt.tv/users/yoru14/lists/dragon-ball?sort=rank,asc
     collection_order: release
     summary: The series follows the adventures of protagonist Son Goku from his childhood through adulthood as he trains in martial arts. He spends his childhood far from civilization until he meets a teen girl named Bulma, who encourages him to join her quest in exploring the world in search of the seven orbs known as the Dragon Balls, which summon a wish-granting dragon when gathered. Along his journey, Goku makes several other friends, becomes a family man, discovers his alien heritage, and battles a wide variety of villains, many of whom also seek the Dragon Balls. Dragon Ball is widely considered one of the most popular anime of all time and is internationally recognized for it's action and comedy aspects. The story and characters of Dragon Ball were partly inspired by the Chinese folk novel Journey to the West, though they diverge from the novel very quickly. Son Goku is based on Sun Wukong also known as the Monkey King.
+  Fate:
+    tmdb_list: 8674082
+    collection_order: release
+    summary: The "Fate" franchise spans multiple interconnected media, most notably the massive TYPE-MOON anime and gaming universe centering on the Holy Grail War.
   Final Fantasy:
     trakt_list: https://trakt.tv/users/yoru14/lists/final-fantasy?sort=rank,asc
     collection_order: release

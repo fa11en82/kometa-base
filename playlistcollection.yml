@@ -47,7 +47,7 @@ templates:
       trakt_list:
         conditions:
           - key: sao
-            value: https://trakt.tv/users/fa11en82/lists/sword-art-online-chronological-order?sort=rank,asc
+            value: https://trakt.tv/users/fa11en82/lists/sword-art-online-universe-chronological-order?sort=added,asc
           - key: gundam
             value: https://trakt.tv/users/crystaltrickster/lists/gundam-series?sort=rank,asc
           - key: babylon
@@ -61,7 +61,7 @@ templates:
           - key: stargate
             value: https://trakt.tv/users/stackguard/lists/stargate?sort=rank,asc
     default:
-      libraries: Movies, TV Shows
+      libraries: Movies, TV Shows, Anime
       item_radarr_tag_<<key>>: <<item_radarr_tag>>
       item_sonarr_tag_<<key>>: <<item_sonarr_tag>>
       trakt_list_<<key>>: <<trakt_list>>

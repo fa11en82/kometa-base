@@ -189,7 +189,7 @@ collections:
     collection_order: release
     summary: "Vikings Collection containing the TV show Vikings and it's sequel show, Vikings: Valhalla."
   Vought Cinematic Universe:
-    trakt_list: https://trakt.tv/users/tiff31/lists/the-boys?sort=released,desc
+    tmdb_list: 8675302
     collection_order: release
     sort_title: "!040_Vought Cinematic Universe"
     summary: The Vought Cinematic Universe is a setting where super-powered individuals are recognized as heroes by the general public and work for a powerful corporation known as Vought International, which markets and monetizes them. Outside of their heroic personas, most are arrogant, selfish, and corrupt.

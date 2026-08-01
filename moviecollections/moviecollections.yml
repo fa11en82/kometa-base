@@ -268,6 +268,10 @@ collections:
     sort_title: "!070_Pixar"
     collection_order: release.desc
     summary: Movies produced by Pixar Animation.
+  Pixar SparkShorts:
+    tmdb_list: 8674153
+    collection_order: release.desc
+    summary: Pixar SparkShorts, a new initiative giving filmmakers an opportunity to realize their projects in an "independent" and low-budget manner. The final results are, therefore, by style and narration, different from the traditional projects realized by the studio, allowing them to explore new territories in the animation sector.
   Robin Williams:
     tmdb_list: 8632836
     collection_order: release
