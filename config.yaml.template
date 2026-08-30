@@ -24,6 +24,7 @@ libraries:                       # This is called out once within the config.yml
         - star
         - trek
         mdblist_list_avp: https://mdblist.com/lists/exoduso/predator-franchise
+        mdblist_list_dca: https://mdblist.com/lists/rickdb/dc-animated-movies
         mdblist_list_marvel: https://mdblist.com/lists/fa11en82/in-association-with-marvel
         mdblist_list_mcu: https://mdblist.com/lists/fa11en82/marvel-cinematic-universe-mcu-with-one-shots
         mdblist_list_xmen: https://mdblist.com/lists/venkatjampani/xmen-x9ul57pzlt
@@ -75,6 +76,19 @@ libraries:                       # This is called out once within the config.yml
         - 9387:     # Conan the Barbarian
         - 9610:     # Conan the Destroyer
         - 37430:    # Conan the Barbarian (2011)
+        movie_1960: # Evil Dead Collection
+        - 764:      # The Evil Dead
+        - 765:      # Evil Dead II
+        - 766:      # Army of Darkness
+        - 109428:   # Evil Dead (2013)
+        - 713704:   # Evil Dead Rise (2023)
+        - 1212763:  # Evil Dead Burn (2026)
+        - 1280608:  # Evil Dead Wrath (2028)
+        movie_86055: # Men in Black Collection
+        - 607:      # Men in Black
+        - 608:      # Men in Black II
+        - 41154:    # Men in Black 3
+        - 479455:   # Men in Black: International
         exclude:
         - 192492    # The Jack Ryan Collection
         - 1445665   # Starship Troopers (Animated) Collection
@@ -101,6 +115,7 @@ libraries:                       # This is called out once within the config.yml
         - 1707393   # Iñárritu's Death Trilogy
         - 1701237   # Eastrail 177 Trilogy
         - 1721335   # The three flavours Cornetto trilogy
+        - 1725885   # Evil Dead Standalone Collection
     - folder: config/moviecollections
       # see the wiki for how to use local files, folders, URLs, or files from git
     remove_overlays: false            ## <<< ADD THIS LINE
@@ -170,6 +185,7 @@ libraries:                       # This is called out once within the config.yml
         append_data:
           twd: The Walking Dead
         mdblist_list_avp: https://mdblist.com/lists/exoduso/predator-franchise
+        mdblist_list_dca: https://mdblist.com/lists/jarvis-14749120/dc-animated-tv-shows
         mdblist_list_marvel: https://mdblist.com/lists/fa11en82/in-association-with-marvel
         mdblist_list_mcu: https://mdblist.com/lists/lt3dave/marvel-cinematic-universe-mcu-shows-in-order
         mdblist_list_twd: https://mdblist.com/lists/lt3dave/the-walking-dead-universe
@@ -374,7 +390,7 @@ settings:
   overlay_artwork_quality:
   show_unfiltered: false
   auto_sort_hubs:
-  webhooks:                          # Can be individually specified per library as well
+webhooks:                          # Can be individually specified per library as well
   changes:
   delete:
   error:
