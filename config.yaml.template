@@ -89,6 +89,12 @@ libraries:                       # This is called out once within the config.yml
         - 608:      # Men in Black II
         - 41154:    # Men in Black 3
         - 479455:   # Men in Black: International
+        movie_422837: # Blade Runner Collection
+        - 78:       # Blade Runner
+        - 335984:   # Blade Runner 2049
+        - 475946:   # Blade Runner: Black Out 2022
+        - 473072:   # 2036: Nexus Dawn
+        - 475759:   # 2048: Nowhere to Run
         exclude:
         - 192492    # The Jack Ryan Collection
         - 1445665   # Starship Troopers (Animated) Collection
@@ -185,7 +191,6 @@ libraries:                       # This is called out once within the config.yml
         append_data:
           twd: The Walking Dead
         mdblist_list_avp: https://mdblist.com/lists/exoduso/predator-franchise
-        mdblist_list_dca: https://mdblist.com/lists/jarvis-14749120/dc-animated-tv-shows
         mdblist_list_marvel: https://mdblist.com/lists/fa11en82/in-association-with-marvel
         mdblist_list_mcu: https://mdblist.com/lists/lt3dave/marvel-cinematic-universe-mcu-shows-in-order
         mdblist_list_twd: https://mdblist.com/lists/lt3dave/the-walking-dead-universe
