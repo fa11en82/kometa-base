@@ -96,7 +96,7 @@ collections:
     summary: The Hellaverse is the extended adult animated musical comedy media franchise for the Hazbin Hotel universe created by Vivienne Medrano (Vivziepop), encompassing Hazbin Hotel and its spin-off series set within the same universe across Hell, Heaven, and Earth.
   In Association With DC:
     mdblist_list: https://mdblist.com/lists/fa11en82/in-association-with-dc
-    collection_order: release.desc
+    collection_order: release
     sort_title: "!040_In Association With DC"
   ITV Shows:
     trakt_list: https://trakt.tv/users/bigbadburnett/lists/itv-shows?sort=rank,asc

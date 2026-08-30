@@ -85,6 +85,10 @@ collections:
     collection_order: release
     sort_title: "!040_DC Extended Universe"
     summary: The DC Extended Universe (DCEU) or the Snyderverse and designated as the reality Earth-1 within the Multiverse system was a collection of interconnected films and other media based on characters that appear in publications by DC Comics, produced by Warner Bros. and DC Studios. The universe largely spans films, though many tie-in media have been produced, such as comics, novels, guidebooks, short films, and video games. The DCEU is a loose adaptation of the DC Universe (DCU) and features a shared universe, much like the original DC Universe in comic books.
+  DC Showcase:
+    tmdb_list: 8690289
+    collection_order: release
+    summary: The DC Showcase is a series of animated short films produced by Warner Bros. Animation and based on characters from DC Comics. The series was created to showcase lesser-known characters and stories from the DC Universe, often serving as a companion to the mainline DC animated films. Each short film typically runs for about 10-15 minutes and features a self-contained story that highlights the unique abilities and personalities of the featured characters. The DC Showcase has been praised for its high-quality animation, engaging storytelling, and its ability to introduce audiences to new and exciting characters within the DC Universe.
   DC Studios:
     tmdb_list: 8642250
     collection_order: release
@@ -99,7 +103,7 @@ collections:
     collection_order: release
     summary: All series and movies of Dragon Ball.
   DreamWorks Animation:
-    trakt_list: https://trakt.tv/users/vancityguy/lists/dreamworks-animation?sort=released,asc
+    mdblist_list: https://mdblist.com/lists/mmagtech/dreamworks-animation
     collection_order: release.desc
     sort_title: "!070_DreamWorks Animation"
     summary: Movies produced by DreamWorks Animation.
@@ -150,13 +154,13 @@ collections:
     collection_order: release
     summary: Sakurai Tomoki has been having the same strange dream since he was a child and would wake up in tears. Sugata, an upperclassman at his school, believes the dream to be of the new continent. Later that night, while waiting under the cherry trees for Sugata and his childhood friend, an angel called Ikaros comes flying down and his peaceful life changes from then on.
   Illumination Entertainment:
-    trakt_list: https://trakt.tv/users/mythicalsensai/lists/illumination?sort=rank,asc
+    mdblist_list: https://mdblist.com/lists/iamnotorious/illumination-feature-films-release-order
     sort_title: "!070_Illumination Entertainment"
     collection_order: release.desc
     summary: Movies produced by Illumination Entertainment.
   In Association With DC:
     mdblist_list: https://mdblist.com/lists/fa11en82/in-association-with-dc
-    collection_order: release.desc
+    collection_order: release
     sort_title: "!040_In Association With DC"
   Jack Ryan:
     tmdb_list: 8654855
