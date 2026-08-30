@@ -191,6 +191,7 @@ libraries:                       # This is called out once within the config.yml
         append_data:
           twd: The Walking Dead
         mdblist_list_avp: https://mdblist.com/lists/exoduso/predator-franchise
+        imdb_list_dca: https://www.imdb.com/list/ls505549439/
         mdblist_list_marvel: https://mdblist.com/lists/fa11en82/in-association-with-marvel
         mdblist_list_mcu: https://mdblist.com/lists/lt3dave/marvel-cinematic-universe-mcu-shows-in-order
         mdblist_list_twd: https://mdblist.com/lists/lt3dave/the-walking-dead-universe
