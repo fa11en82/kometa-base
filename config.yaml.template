@@ -15,6 +15,10 @@ libraries:                       # This is called out once within the config.yml
     - default: streaming
       template_variables:
         collection_order: release
+        exclude:
+        - amazon
+        - paramount
+        - youtube
     - default: universe
       template_variables:
         collection_order: release
@@ -122,6 +126,8 @@ libraries:                       # This is called out once within the config.yml
         - 1701237   # Eastrail 177 Trilogy
         - 1721335   # The three flavours Cornetto trilogy
         - 1725885   # Evil Dead Standalone Collection
+        - 1166631   # Mobile Suit Gundam Hathaway Collection
+        - 1769700   # Unbreakable Collection
     - folder: config/moviecollections
       # see the wiki for how to use local files, folders, URLs, or files from git
     remove_overlays: false            ## <<< ADD THIS LINE
@@ -180,6 +186,10 @@ libraries:                       # This is called out once within the config.yml
     - default: streaming
       template_variables:
         collection_order: release
+        exclude:
+        - amazon
+        - paramount
+        - youtube
     - default: universe
       template_variables:
         collection_order: release
