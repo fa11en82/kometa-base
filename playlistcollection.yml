@@ -13,14 +13,28 @@ templates:
         # check1
           - key: arrow
             value: https://www.imdb.com/list/ls566667558/
+          - key: avp
+            value: https://www.imdb.com/list/ls527553583/
+          - key: babylon
+            value: https://www.imdb.com/list/ls539933811/
           - key: dcau
             value: https://www.imdb.com/list/ls566357882/
+          - key: gundam
+            value: https://www.imdb.com/list/ls4113763025/
+          - key: jrrt
+            value: https://www.imdb.com/list/ls523029960/
           - key: mcu
             value: https://www.imdb.com/list/ls539646485/
-          - key: starwars
-            value: https://www.imdb.com/list/ls501373412/
+          - key: sao
+            value: https://www.imdb.com/list/ls4179334155/
+          - key: stargate
+            value: https://www.imdb.com/list/ls4158213596/
           - key: startrek
             value: https://www.imdb.com/list/ls547463722/
+          - key: starwars
+            value: https://www.imdb.com/list/ls501373412/
+          - key: wdu
+            value: https://www.imdb.com/list/ls024407790/
           - key: xmen
             value: https://www.imdb.com/list/ls567618635/
         # check2
@@ -44,22 +58,6 @@ templates:
             trakt_list_<<key>>.exists: false
             mdblist_list_<<key>>.exists: false
             value: <<mdblist_url>>
-      trakt_list:
-        conditions:
-          - key: sao
-            value: https://trakt.tv/users/fa11en82/lists/sword-art-online-universe-chronological-order?sort=added,asc
-          - key: gundam
-            value: https://trakt.tv/users/crystaltrickster/lists/gundam-series?sort=rank,asc
-          - key: babylon
-            value: https://trakt.tv/users/b1ubb/lists/babylon-5-timeline?sort=rank,asc
-          - key: jrrt
-            value: https://trakt.tv/users/oya-kesh/lists/middle-earth?sort=rank,asc
-          - key: wdu
-            value: https://trakt.tv/users/sami_svk/lists/the-walking-dead-timeline?sort=rank,asc
-          - key: avp
-            value: https://trakt.tv/users/fs-corrupt/lists/alien-predator-timeline?sort=rank,asc
-          - key: stargate
-            value: https://trakt.tv/users/stackguard/lists/stargate?sort=rank,asc
     default:
       libraries: Movies, TV Shows, Anime
       item_radarr_tag_<<key>>: <<item_radarr_tag>>

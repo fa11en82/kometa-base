@@ -1,11 +1,11 @@
 collections:
   A24:
-    trakt_list: https://app.trakt.tv/users/lish408/lists/a24
+    tmdb_company: 41077
     collection_order: release.desc
     sort_title: "!070_A24"
     summary: A24 is an American independent entertainment company that specializes in film and television production, as well as film distribution.
   Adult Swim:
-    trakt_list: https://trakt.tv/users/jmastab/lists/adult-swim?sort=title,asc
+    mdblist_list: https://mdblist.com/lists/maddog47473747/adult-swim-movies
     sort_title: "!030_Adult Swim"
     collection_order: release.desc
     summary: Movies on Adult Swim.
@@ -24,12 +24,12 @@ collections:
     collection_order: release
     summary: A world dominated by giants. Humans, who became the prey of the giants, built a huge wall with a height of 50 meters to prevent the invasion of the giants. In exchange for freedom outside the wall… Eren Yeager, a boy who longs for freedom to go out of the wall. He is content with the tentative peace in the wall and feels uncomfortable with those who have given up on going out to the outside world. One day, the wall was easily broken by a "super giant" who suddenly appeared, and the city of Ellen fell by the giant. Ellen, whose mother was eaten in front of him, burns revenge when he destroys all the giants and becomes a soldier who fights against the giants.
   Avatar Universe:
-    trakt_list: https://trakt.tv/users/abhikbhatia/lists/avatar-studios?sort=released,desc
+    tmdb_list: 8697313
     sort_title: "!040_Avatar Universe"
     collection_order: release
     summary: Avatar The Last Airbender is set in an Asiatic-like world in which some people can manipulate the classical elements with psychokinetic variants of the Chinese martial arts known as "bending". The series is presented in a style that combines anime with American cartoons and relies on the imagery of East/South Asian, Inuit, and New World societies. It follows the protagonists, 12-year-old Aang and his friends, who must bring peace and unity to the world by ending the Fire Lord's war with the rest of the world. An animated sequel series, The Legend of Korra, aired from 2012 to 2014. A new live-action remake of the series by its original creators to be produced for Netflix was announced in September 2018.
   Baki:
-    trakt_list: https://trakt.tv/users/drachenplatinum/lists/baki?sort=rank,asc
+    tmdb_list: 8697311
     collection_order: release
     summary: Baki Hanma is the protagonist of the Baki the Grappler franchise. At thirteen, he decided to take his training into his own hands to perform more intense training in his father's footsteps. He later aims to defeat him. Baki first fought in the no-rules arena at fifteen and went on to become its champion. He is the son of Yuujirou Hanma and Emi Akezawa and the half-brother of Jack Hanma. He is known as the "Champion" of the Underground Arena in Tokyo Dome, he is often called "the Strongest Boy on the Earth."
   Battlestar Galactica:
@@ -41,11 +41,11 @@ collections:
     collection_order: release
     summary: Guts, renowned as the "Black Swordsman", is a former mercenary and branded wanderer who travels the world in a constant internal struggle between pursuing his own ends and upholding his attachments to those dear to him. At one time driven solely by his will to survive, Guts finds purpose in life upon joining the Band of the Falcon, greatly helping in the faction's storied successes during the Hundred-Year War as captain of the band's raiders. He eventually becomes dissatisfied with clinging to Griffith's dream and departs from the band in pursuit of his own. Following the horrors of the Eclipse prompted by Griffith, Guts embarks on a two-year war against the God Hand and apostles, becoming increasingly embittered on his one-track quest for retribution. He in time realizes protecting his regressed lover is more important to him, as well as something he cannot do alone, and thus puts aside his quest for revenge while fostering camaraderie with new companions.
   Bleach:
-    trakt_list: https://trakt.tv/users/behead974/lists/bleach?sort=rank,asc
+    tmdb_list: 8692702
     collection_order: release
     summary: Ichigo Kurosaki is a 15-year-old boy with the ability to see spirits, something that he considers more of a bother than a gift. One day he meets a Shinigami (Death God) named Rukia, who's on the run from a Hollow—a destructive spirit with unfinished business on Earth. As a last-minute measure, Rukia transfers her powers to Ichigo, whose abundant supply of spirit energy makes him a far more potent Shinigami than she ever was! Soon Ichigo is vanquishing Hollows left and right, and meeting other friends at school with similar abilities. However, Rukia's transfer of power is forbidden by the Soul Society (the official name of the spirit world), and when their agents come to Earth to dish out the consequences, Ichigo finds that he might have to challenge the entire world of the dead to save her.
   Bruce Lee:
-    trakt_list: https://trakt.tv/users/jazzcub/lists/bruce-lee?sort=rank,asc
+    tmdb_list: 8697309
     collection_order: release
     summary: Movies starring Bruce Lee.
   Christopher Titus:
@@ -99,7 +99,7 @@ collections:
     collection_order: release
     summary: The Dead Collection is the remakes and originals of zombie action-horror films created by George A. Romero beginning with the 1968 film Night of the Living Dead directed by Romero and co-written with John A. Russo. The franchise predominantly centers on different groups of people attempting to survive during the outbreak and evolution of a zombie apocalypse.
   Dragon Ball:
-    trakt_list: https://trakt.tv/users/yoru14/lists/dragon-ball?sort=rank,asc
+    mdblist_list: https://mdblist.com/lists/kaoxt/dragon-ball-movies
     collection_order: release
     summary: All series and movies of Dragon Ball.
   DreamWorks Animation:
@@ -108,7 +108,7 @@ collections:
     sort_title: "!070_DreamWorks Animation"
     summary: Movies produced by DreamWorks Animation.
   Dune Universe:
-    trakt_list: https://trakt.tv/users/hriday-80ce1824-23e8-4fee-99e5-8edc661aed32/lists/dune?sort=released,asc
+    mdblist_list: https://mdblist.com/lists/jberio82/dune-universe
     collection_order: release
     sort_title: "!040_Dune Universe"
     summary: Dune is a science fiction novel written by Frank Herbert and published in 1965. A joint winner of the 1966 Hugo Award and the winner of the first Nebula Award for Best Novel, Dune is popularly considered one of the greatest science fiction novels of all time, is frequently cited as the best-selling science fiction novel in history and was the first bestselling hardcover science fiction novel ever.
@@ -134,7 +134,7 @@ collections:
     collection_order: release
     summary: Renton Thurston desires to leave his home behind and join the mercenary group known as Gekkostate, hoping to find some adventure. When a robot crashes through Renton's garage the meeting sparks the beginning of Renton's involvement with Gekkostate as he takes off alongside the young girl Eureka as the co-pilot of the Nirvash.
   Final Fantasy:
-    trakt_list: https://trakt.tv/users/yoru14/lists/final-fantasy?sort=rank,asc
+    tmdb_list: 8697303
     collection_order: release
     summary: Movies that exist in the worlds of Final Fantasy.
   George Carlin:
@@ -142,7 +142,7 @@ collections:
     collection_order: release
     summary: The stand-up comedy of George Carlin.
   Ghost in the Shell:
-    trakt_list: https://trakt.tv/users/yoru14/lists/ghost-in-the-shell?sort=rank,asc
+    mdblist_list: https://mdblist.com/lists/chilly164/ghost-in-the-shell
     collection_order: release
     summary: As cybernetic technology advances, criminal activities are becoming daily common occurrences. For Chief Aramaki and his ELITE squad, Section 9, they are the only ones with the means to put an end to cyber terrorism. Join Togusa, Ishikawa, The Major, Batou, Tachikomas, and the rest of the Section 9 team through a intellectual roller coaster ride in the 21st century.
   Hannibal Lecter:
@@ -181,12 +181,12 @@ collections:
     sort_title: "!150_James Cameron"
     summary: Movies directed by James Cameron.
   John Wick Universe:
-    trakt_list: https://trakt.tv/users/drjenkins/lists/john-wick?sort=released,desc
+    tmdb_list: 8697341
     sort_title: "!040_John Wick Universe"
     collection_order: release
     summary: A neo-noir action thriller film series that follows Jonathan 'John' Wick, a former assassin, who comes out of retirement seeking vengeance for the theft of his vintage car and the murder of the puppy his deceased wife left to him.
   Ken Burns (Directing):
-    trakt_list: https://trakt.tv/users/iiviioran/lists/ken-burns?sort=rank,asc
+    mdblist_list: https://mdblist.com/lists/fightinirish/ken-burns
     sort_title: "!150_Ken Burns (Directing)"
     collection_order: release
     summary: Collection of documentary films and television series directed/produced by Ken Burns.
@@ -203,16 +203,16 @@ collections:
     sort_title: "Lord of the Rings (Animated)"
     summary: A collection of animated films based on J.R.R. Tolkein's Middle-earth.
   Lucasfilm Ltd.:
-    trakt_list: https://trakt.tv/users/mdatum/lists/lucasfilms?sort=rank,asc
+    mdblist_list: https://mdblist.com/lists/mdatum/lucasfilms
     sort_title: "!070_Lucasfilm Ltd."
     collection_order: release.desc
     summary: Movies produced by Lucasfilm Ltd.
   Lupin The Third:
-    trakt_list: https://trakt.tv/users/vivienb/lists/lupin-iii-movies?sort=rank,asc
+    tmdb_list: 8697286
     collection_order: release
     summary: Lupin III is the grandson of the famous phantom thief Arséne Lupin. He is an elusive master thief who always steals his target prey.  His brain is a genius, and his gun skills are top-notch, but his only flaw is that he has a weakness for cute girls. His companions are Daisuke Jigen, a gunfighter with a rapid fire rate of 0.3 seconds, Goemon Ishikawa, the 13th Samurai of the Showa era, and Fujiko Mine, a mysterious beauty.  Together with these guys, who have their own quirks and quirks, they will once again receive a treasure in a spectacular manner, while trumpeting the seventh generation of Inspector Zenigata Heiji and his formidable enemies in the underworld.
   The Man with No Name:
-    trakt_list: https://trakt.tv/users/astrolansen/lists/the-man-with-no-name?sort=released,asc
+    mdblist_list: https://mdblist.com/lists/hthighway/movies-man-with-no-name
     sort_title: "Man with No Name Collection"
     collection_order: release
     summary: Also known as the Dollars Trilogy or the Blood Money Trilogy, this is an Italian film series consisting of three Spaghetti Western films directed by Sergio Leone and distributed by United Artists. This series is known for establishing the Spaghetti Western genre and inspiring the creation of many more like films. These three films are consistently listed among the best rated Western films in history.
@@ -234,6 +234,10 @@ collections:
     sort_title: "Miranda Green Mysteries"
     collection_order: release
     summary: A series of films about Miranda Green, who is a florist with a passion for mystery novels, particularly those by Agatha Christie.
+  Mobile Suit Gundam:
+    mdblist_list: https://mdblist.com/lists/fa11en82/gundam-franchise
+    collection_order: release
+    summary: Gundam is a Japanese military science fiction media franchise. Created by Yoshiyuki Tomino and Sunrise (now Bandai Namco Filmworks), the franchise features giant robots, or mecha, with the name "Gundam". The franchise began on April 7, 1979, with Mobile Suit Gundam, a TV series that defined the "real robot" mecha anime genre by featuring giant robots called mobile suits (including the original titular mecha) in a militaristic setting. The popularity of the series and its merchandise spawned a franchise that includes 50 TV series, films and OVAs as well as manga, novels and video games, along with a whole industry of plastic model kits known as Gunpla which makes up 90 percent of the Japanese character plastic-model market.
   Monsterverse:
     tmdb_list: 8642113
     collection_order: release
@@ -244,7 +248,7 @@ collections:
     collection_order: release
     summary: In a world where people with superpowers (called "Quirks") are the norm, Izuku Midoriya is one of the few who was born without them. Despite this, he still dreams of becoming a great hero like his idol All Might. One day, he has a chance encounter with All Might himself, who sees potential in Izuku and decides to pass on his own Quirk to him. With his newfound powers, Izuku enrolls in U.A. High School, a prestigious academy for aspiring heroes, where he must learn to control his abilities and face various challenges as he strives to become the greatest hero of all time.
   National Lampoon:
-    trakt_list: https://trakt.tv/users/pr1nc1p3/lists/national-lampoon-s?sort=released,desc
+    mdblist_list: https://mdblist.com/lists/jberio82/national-lampoon
     collection_order: release.desc
     sort_title: "!070_National Lampoon"
     summary: Movies produced or licensed by National Lampoon.
@@ -252,6 +256,11 @@ collections:
     tmdb_list: 8643334
     collection_order: release
     summary: A series of films and shows set in the magical Land of Oz.
+  Paramount+ Movies:
+    mdblist_list: https://mdblist.com/lists/alaxkouad/paramount-movies-8rsp5w0f7l
+    sort_title: "!030_Paramount+ Movies"
+    collection_order: release
+    summary: Movies streaming on Paramount+.
   PBS:
     mdblist_list: https://mdblist.com/lists/jpdooley01/pbs-movies
     sort_title: "!030_PBS"
@@ -263,7 +272,7 @@ collections:
     collection_order: release
     summary: Peanuts and Charlie Brown are based on a long-running comic strip drawn and authored by Charles Schulz.
   Pirates of the Caribbean Universe:
-    trakt_list: https://trakt.tv/users/arachn0id/lists/pirates-of-the-caribbean?sort=released,desc
+    mdblist_list: https://mdblist.com/lists/jberio82/pirates-of-the-caribbean
     collection_order: release
     sort_title: "!040_Pirates of the Caribbean"
     summary: A series of fantasy swashbuckler films based on Walt Disney's theme park ride of the same name. The films follow the adventures of Captain Jack Sparrow and take place in a fictional historical setting; a world ruled by the British Empire, the East India Trading Company and the Spanish Empire, with pirates representing freedom from the ruling powers.
@@ -276,6 +285,11 @@ collections:
     tmdb_list: 8674153
     collection_order: release.desc
     summary: Pixar SparkShorts, a new initiative giving filmmakers an opportunity to realize their projects in an "independent" and low-budget manner. The final results are, therefore, by style and narration, different from the traditional projects realized by the studio, allowing them to explore new territories in the animation sector.
+  Prime Video Movies:
+    mdblist_list: https://mdblist.com/lists/notamongo5/amazon-prime-video-series
+    sort_title: "!030_Prime Video Movies"
+    collection_order: release
+    summary: Movies streaming on Amazon Prime Video.
   Robin Williams:
     tmdb_list: 8632836
     collection_order: release
@@ -302,13 +316,8 @@ collections:
     collection_order: release
     sort_title: "!040_Star Trek"
     summary: Star Trek is a science fiction media franchise created by Gene Roddenberry that began with the original television series Star Trek in 1966. The franchise has since expanded to include multiple television series, films, novels, comics, and video games. Centered on the United Federation of Planets and its exploratory Starfleet, the narrative follows crews—most notably on the USS Enterprise—exploring the galaxy, interacting with alien species, and addressing moral, technological, and political dilemmas. The central theme of Star Trek is the exploration of space and the human condition, often addressing social and political issues through its storytelling. The franchise is known for its optimistic vision of the future, where humanity has overcome many of its problems and is united in a common goal of exploration and understanding.
-  Stargate:
-    trakt_list: https://trakt.tv/users/stackguard/lists/stargate?sort=rank,asc
-    collection_order: release
-    sort_title: "!040_Stargate"
-    summary: Stargate is a military science fiction media franchise based on the film directed by Roland Emmerich, which he co-wrote with producer Dean Devlin. The franchise is based on the idea of an alien Einstein–Rosen bridge device (the Stargate) that enables nearly instantaneous travel across the cosmos.
   Studio Ghibli:
-    trakt_list: https://trakt.tv/users/avaianade/lists/studio-ghibli?sort=released,asc
+    mdblist_list: https://mdblist.com/lists/jukebox8786/studio-ghibli-anime
     sort_title: "!070_Studio Ghibli"
     collection_order: release.desc
     summary: Movies produced by Studio Ghibli.
@@ -326,6 +335,11 @@ collections:
     sort_title: "!040_Transformers"
     collection_order: release
     summary: A series of films existing in Hasbro's Transformers Universe centered around two groups of alien robots that have the ability to transform into mechanical objects of various sizes as disguises to prevent being discovered.
+  The Twisted Childhood Universe:
+    tmdb_list: 8690698
+    collection_order: release
+    sort_title: "Twisted Childhood Universe"
+    summary: The Twisted Childhood Universe, or the TCU, is a British multimedia franchise and shared continuity of independent slasher-horror films, each serving as a dark reimagining of various public domain children's media characters. It was conceived and created by Rhys Frake-Waterfield and a produced by the filmmaker's Jagged Edge Productions film studio. The films center around beloved childhood characters, and through the storytelling lens of these characters becoming dark murderous monsters.
   Walt Disney Animation:
     mdblist_list: https://mdblist.com/lists/mjc3bb/disney-animation
     sort_title: "!070_Walt Disney Animation"
@@ -340,3 +354,8 @@ collections:
     tmdb_list: 8634511
     collection_order: release
     summary: The Witcher universe, based on Andrzej Sapkowski’s books, is a sprawling fantasy franchise focused on monster hunter Geralt of Rivia, sorceress Yennefer of Vengerberg, and Princess Ciri of Cintra on "the Continent". It includes the main series, animated films, a prequel miniseries, and spin-offs exploring the world's lore.
+  YouTube Movies:
+    mdblist_list: https://mdblist.com/lists/aattinello/youtube-movies
+    sort_title: "!030_YouTube Movies"
+    collection_order: release
+    summary: Movies streaming on YouTube.

@@ -8,12 +8,8 @@ collections:
     collection_order: release.desc
     sort_title: "!030_Adult Swim"
     summary: Shows on Adult Swim.
-  Attack on Titan (Anime):
-    trakt_list: https://trakt.tv/users/sergio_sfranco/lists/attack-on-titan-all-episodes-oads-in-viewing-order?sort=rank,asc
-    collection_order: release
-    summary: A world dominated by giants. Humans, who became the prey of the giants, built a huge wall with a height of 50 meters to prevent the invasion of the giants. In exchange for freedom outside the wall… Eren Yeager, a boy who longs for freedom to go out of the wall. He is content with the tentative peace in the wall and feels uncomfortable with those who have given up on going out to the outside world. One day, the wall was easily broken by a "super giant" who suddenly appeared, and the city of Ellen fell by the giant. Ellen, whose mother was eaten in front of him, burns revenge when he destroys all the giants and becomes a soldier who fights against the giants.
   Baki:
-    trakt_list: https://trakt.tv/users/drachenplatinum/lists/baki?sort=rank,asc
+    tmdb_list: 8697311
     collection_order: release
     summary: Baki Hanma is the protagonist of the Baki the Grappler franchise. At thirteen, he decided to take his training into his own hands to perform more intense training in his father's footsteps. He later aims to defeat him. Baki first fought in the no-rules arena at fifteen and went on to become its champion. He is the son of Yuujirou Hanma and Emi Akezawa and the half-brother of Jack Hanma. He is known as the "Champion" of the Underground Arena in Tokyo Dome, he is often called "the Strongest Boy on the Earth."
   Berserk:
@@ -21,11 +17,11 @@ collections:
     collection_order: release
     summary: Guts, renowned as the "Black Swordsman", is a former mercenary and branded wanderer who travels the world in a constant internal struggle between pursuing his own ends and upholding his attachments to those dear to him. At one time driven solely by his will to survive, Guts finds purpose in life upon joining the Band of the Falcon, greatly helping in the faction's storied successes during the Hundred-Year War as captain of the band's raiders. He eventually becomes dissatisfied with clinging to Griffith's dream and departs from the band in pursuit of his own. Following the horrors of the Eclipse prompted by Griffith, Guts embarks on a two-year war against the God Hand and apostles, becoming increasingly embittered on his one-track quest for retribution. He in time realizes protecting his regressed lover is more important to him, as well as something he cannot do alone, and thus puts aside his quest for revenge while fostering camaraderie with new companions.
   Bleach:
-    trakt_list: https://trakt.tv/users/behead974/lists/bleach?sort=rank,asc
+    tmdb_list: 8692702
     collection_order: release
     summary: Ichigo Kurosaki is a 15-year-old boy with the ability to see spirits, something that he considers more of a bother than a gift. One day he meets a Shinigami (Death God) named Rukia, who's on the run from a Hollow—a destructive spirit with unfinished business on Earth. As a last-minute measure, Rukia transfers her powers to Ichigo, whose abundant supply of spirit energy makes him a far more potent Shinigami than she ever was! Soon Ichigo is vanquishing Hollows left and right, and meeting other friends at school with similar abilities. However, Rukia's transfer of power is forbidden by the Soul Society (the official name of the spirit world), and when their agents come to Earth to dish out the consequences, Ichigo finds that he might have to challenge the entire world of the dead to save her.
   Dragon Ball:
-    trakt_list: https://trakt.tv/users/yoru14/lists/dragon-ball?sort=rank,asc
+    mdblist_list: https://mdblist.com/lists/kaoxt/dragon-ball-shows
     collection_order: release
     summary: The series follows the adventures of protagonist Son Goku from his childhood through adulthood as he trains in martial arts. He spends his childhood far from civilization until he meets a teen girl named Bulma, who encourages him to join her quest in exploring the world in search of the seven orbs known as the Dragon Balls, which summon a wish-granting dragon when gathered. Along his journey, Goku makes several other friends, becomes a family man, discovers his alien heritage, and battles a wide variety of villains, many of whom also seek the Dragon Balls. Dragon Ball is widely considered one of the most popular anime of all time and is internationally recognized for it's action and comedy aspects. The story and characters of Dragon Ball were partly inspired by the Chinese folk novel Journey to the West, though they diverge from the novel very quickly. Son Goku is based on Sun Wukong also known as the Monkey King.
   Fate:
@@ -33,11 +29,11 @@ collections:
     collection_order: release
     summary: The "Fate" franchise spans multiple interconnected media, most notably the massive TYPE-MOON anime and gaming universe centering on the Holy Grail War.
   Final Fantasy:
-    trakt_list: https://trakt.tv/users/yoru14/lists/final-fantasy?sort=rank,asc
+    tmdb_list: 8697303
     collection_order: release
     summary: Anime that exist in the worlds of Final Fantasy.
   Ghost in the Shell:
-    trakt_list: https://trakt.tv/users/yoru14/lists/ghost-in-the-shell?sort=rank,asc
+    mdblist_list: https://mdblist.com/lists/chilly164/ghost-in-the-shell
     collection_order: release
     summary: As cybernetic technology advances, criminal activities are becoming daily common occurrences. For Chief Aramaki and his ELITE squad, Section 9, they are the only ones with the means to put an end to cyber terrorism. Join Togusa, Ishikawa, The Major, Batou, Tachikomas, and the rest of the Section 9 team through a intellectual roller coaster ride in the 21st century.
   HiDive Shows:
@@ -58,14 +54,19 @@ collections:
     collection_order: release
     summary: In a world where people with superpowers (called "Quirks") are the norm, Izuku Midoriya is one of the few who was born without them. Despite this, he still dreams of becoming a great hero like his idol All Might. One day, he has a chance encounter with All Might himself, who sees potential in Izuku and decides to pass on his own Quirk to him. With his newfound powers, Izuku enrolls in U.A. High School, a prestigious academy for aspiring heroes, where he must learn to control his abilities and face various challenges as he strives to become the greatest hero of all time.
   Naruto:
-    trakt_list: https://trakt.tv/users/wasmisch77/lists/naruto?sort=rank,asc
+    mdblist_list: https://mdblist.com/lists/kaoxt/naruto-shows
     collection_order: release
     summary: Naruto tells the story of Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of becoming the Hokage, the leader of his village. The story is told in three parts, the first is set in Naruto's pre-teen years, the second is during his teens, and finally the third occurs during his adulthood.
-  Netflix Shows:
-    trakt_list: https://trakt.tv/users/jonfinley/lists/netflix-originals?sort=rank,asc
-    sort_title: "!030_Netflix Shows"
-    collection_order: release.desc
-    summary: Shows streaming on Netflix.
+  Paramount+ Shows:
+    mdblist_list: https://mdblist.com/lists/alaxkouad/paramount-shows-rx0b1rhgn2
+    sort_title: "!030_Paramount+ Shows"
+    collection_order: release
+    summary: Shows streaming on Paramount+.
+  Prime Video Shows:
+    mdblist_list: https://mdblist.com/lists/notamongo5/amazon-prime-video-series
+    sort_title: "!030_Prime Video Shows"
+    collection_order: release
+    summary: Shows streaming on Amazon Prime Video.
   RWBY:
     tmdb_list: 8653507
     collection_order: release
