@@ -45,6 +45,11 @@ collections:
     tmdb_list: 8655792
     collection_order: release
     summary: Being Human follows three supernatural roommates—a vampire, a werewolf, and a ghost—who try to suppress their monstrous instincts and pass as normal twenty-somethings in society. Alongside the challenges of sharing an apartment, they navigate double lives, their dark pasts, and relentless pressure from their respective supernatural communities. The original British series aired from 2008 to 2013, while the American adaptation ran from 2011 to 2014. Both versions explore themes of identity, morality, and the struggle for humanity amidst their supernatural conditions.
+  The Big Bang Theory:
+    sort_title: "!040_The Big Bang Theory"
+    tmdb_list: 8703272
+    collection_order: release
+    summary: The Big Bang Theory Universe is a collection of shows based on the original series The Big Bang Theory, which follows the lives of socially awkward physicists and their friends. The universe includes spin-offs that focus on the earlier life of Sheldon Cooper and his family and more recently a show about the owner of the comic book store the original cast liked to frequent.
   Breaking Bad:
     tmdb_list: 8697340
     collection_order: release
