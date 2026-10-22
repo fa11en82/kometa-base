@@ -133,6 +133,11 @@ collections:
       - 55958 # Psalms of Planets Eureka Seven: Good Night, Sleep Tight, Young Lovers (2009)
     collection_order: release
     summary: Renton Thurston desires to leave his home behind and join the mercenary group known as Gekkostate, hoping to find some adventure. When a robot crashes through Renton's garage the meeting sparks the beginning of Renton's involvement with Gekkostate as he takes off alongside the young girl Eureka as the co-pilot of the Nirvash.
+  Evangelion Universe:
+    tmdb_list: 8707297
+    collection_order: release
+    sort_title: "!040_Evangelion Universe"
+    summary: At the turn of the century, the Angels returned to Earth, seeking to wipe out humanity in an apocalyptic fury. Devastated, mankind's last remnants moved underground to wait for the day when the Angels would come back to finish the job. Fifteen years later, that day has come... but this time, humanity is ready to fight back with terrifying bio-mechanical weapons known as the Evangelions. Watch as Shinji, Rei, Asuka and the rest of the mysterious shadow agency Nerv battle to save earth from total annihilation.
   Final Fantasy:
     tmdb_list: 8697303
     collection_order: release
@@ -331,7 +336,7 @@ collections:
     collection_order: release
     summary: The Ryanverse franchise focuses on the character Jack Ryan, a fictional CIA analyst created in 1984 by American author Tom Clancy, who featured him in fourteen novels. It also features CIA operative John Clark and The Campus, a covert counter-terrorism and intelligence organization.
   Transformers:
-    mdblist_list: https://mdblist.com/lists/michael0deon/transformers-all
+    mdblist_list: https://mdblist.com/lists/purple_smurf/transformers
     sort_title: "!040_Transformers"
     collection_order: release
     summary: A series of films existing in Hasbro's Transformers Universe centered around two groups of alien robots that have the ability to transform into mechanical objects of various sizes as disguises to prevent being discovered.

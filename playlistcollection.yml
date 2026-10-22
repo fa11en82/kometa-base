@@ -17,6 +17,8 @@ templates:
             value: https://www.imdb.com/list/ls527553583/
           - key: babylon
             value: https://www.imdb.com/list/ls539933811/
+          - key: bsg
+            value: https://www.imdb.com/list/ls4116764680/
           - key: dcau
             value: https://www.imdb.com/list/ls566357882/
           - key: gundam
@@ -42,7 +44,6 @@ templates:
         conditions:
           - imdb_list_<<key>>.exists: false
             mdblist_list_<<key>>.exists: false
-            trakt_list_<<key>>.exists: false
             value: <<imdb_url>>
       mdblist_url:
         conditions:
@@ -55,14 +56,12 @@ templates:
       mdblist_list:
         conditions:
           - imdb_list_<<key>>.exists: false
-            trakt_list_<<key>>.exists: false
             mdblist_list_<<key>>.exists: false
             value: <<mdblist_url>>
     default:
       libraries: Movies, TV Shows, Anime
       item_radarr_tag_<<key>>: <<item_radarr_tag>>
       item_sonarr_tag_<<key>>: <<item_sonarr_tag>>
-      trakt_list_<<key>>: <<trakt_list>>
       imdb_list_<<key>>: <<imdb_list>>
       mdblist_list_<<key>>: <<mdblist_list>>
       url_poster_<<key>>: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/playlist/<<mapping_name_encoded>>.jpg
@@ -79,7 +78,6 @@ templates:
       - sync_to_users
       - exclude_users
       - delete_playlist
-      - trakt_list
       - imdb_list
       - mdblist_list
     run_definition:
@@ -88,7 +86,6 @@ templates:
     ignore_imdb_ids: <<ignore_imdb_ids>>
     item_radarr_tag: <<item_radarr_tag_<<key>>>>
     item_sonarr_tag: <<item_sonarr_tag_<<key>>>>
-    trakt_list: <<trakt_list_<<key>>>>
     mdblist_list: <<mdblist_list_<<key>>>>
     imdb_list: <<imdb_list_<<key>>>>
     cache_builders: 1
@@ -126,6 +123,15 @@ playlists:
     template:
       - name: playlist
         summary_babylon: The Babylon 5 chronological order of the storyline for the episodes as well as the movies, as indicated by J. Michael Straczynski.
+      - name: arr
+
+
+  Battlestar Galactica (Reboot) (Proper Viewing Order):
+    variables:
+      key: bsg
+    template:
+      - name: playlist
+        summary_bsg: The proper viewing order for Battlestar Galactica, while not set up in the traditional timeline order of other playlists, this order is done so that the show makes sense to new viewers. With so many off-shoots, extended episodes, webisodes, one-off movies and weird bits and pieces it's very hard for a new Battlestar Galactica fan to know exactly what order to watch everything in.
       - name: arr
 
 
