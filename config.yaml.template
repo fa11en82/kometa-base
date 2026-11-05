@@ -11,7 +11,7 @@ libraries:                       # This is called out once within the config.yml
         visible_home_top: true
         visible_shared_top: true
     - default: tmdb                  # This is a file within the defaults folder in the Repository
-    - default: trakt                 # This is a file within the defaults folder in the Repository
+    - default: simkl                 # This is a file within the defaults folder in the Repository
     - default: streaming
       template_variables:
         collection_order: release
@@ -36,6 +36,8 @@ libraries:                       # This is called out once within the config.yml
       template_variables:
         emoji: ''
         collection_section: '025'
+        mdblist_list_halloween: https://mdblist.com/lists/linvo/halloween-popular-movies
+        limit_halloween: 1000
     - default: based
       template_variables:
         collection_order: release.desc
@@ -99,6 +101,22 @@ libraries:                       # This is called out once within the config.yml
         - 475946:   # Blade Runner: Black Out 2022
         - 473072:   # 2036: Nexus Dawn
         - 475759:   # 2048: Nowhere to Run
+        movie_142680: # Alex Cross Collection
+        - 9437:     # Kiss the Girls
+        - 2043:     # Along Came a Spider
+        - 94348:    # Alex Cross
+        movie_17255: # Resident Evil Collection
+        - 1576:     # Resident Evil
+        - 1577:     # Resident Evil: Apocalypse
+        - 7737:     # Resident Evil: Extinction
+        - 35791:    # Resident Evil: Afterlife
+        - 71679:    # Resident Evil: Retribution
+        - 173897:   # Resident Evil: The Final Chapter
+        - 460458:   # Resident Evil: Welcome to Raccoon City
+        movie_2883: # Kill Bill Collection
+        - 24:       # Kill Bill: Vol. 1
+        - 393:      # Kill Bill: Vol. 2
+        - 414419:   # Kill Bill: The Whole Bloody Affair
         exclude:
         - 192492    # The Jack Ryan Collection
         - 1445665   # Starship Troopers (Animated) Collection
@@ -128,6 +146,7 @@ libraries:                       # This is called out once within the config.yml
         - 1725885   # Evil Dead Standalone Collection
         - 1166631   # Mobile Suit Gundam Hathaway Collection
         - 1769700   # Unbreakable Collection
+        - 1786729   # Final Fantasy Triple Collection
     - folder: config/moviecollections
       # see the wiki for how to use local files, folders, URLs, or files from git
     remove_overlays: false            ## <<< ADD THIS LINE
@@ -182,7 +201,7 @@ libraries:                       # This is called out once within the config.yml
     - default: basic                   # This is a file within Kometa's defaults folder
     - default: imdb                    # This is a file within Kometa's defaults folder
     - default: tmdb                    # This is a file within the defaults folder in the Repository
-    - default: trakt                   # This is a file within the defaults folder in the Repository
+    - default: simkl                   # This is a file within the defaults folder in the Repository
     - default: streaming
       template_variables:
         collection_order: release
