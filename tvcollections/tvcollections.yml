@@ -204,11 +204,11 @@ collections:
     sort_title: "!040_Tom Clancy's Ryanverse"
     collection_order: release
     summary: The Ryanverse franchise focuses on the character Jack Ryan, a fictional CIA analyst created in 1984 by American author Tom Clancy, who featured him in fourteen novels. It also features CIA operative John Clark and The Campus, a covert counter-terrorism and intelligence organization.
-  Transformers:
+  Transformers Universe:
     mdblist_list: https://mdblist.com/lists/purple_smurf/transformers
-    sort_title: "!040_Transformers"
+    sort_title: "!040_Transformers Universe"
     collection_order: release
-    summary: A series of films existing in Hasbro's Transformers Universe centered around two groups of alien robots that have the ability to transform into mechanical objects of various sizes as disguises to prevent being discovered.
+    summary: A series of films and tv shows existing in Hasbro's Transformers Universe centered around two groups of alien robots that have the ability to transform into mechanical objects of various sizes as disguises to prevent being discovered.
   Vikings:
     tmdb_list: 8638851
     collection_order: release
