@@ -3,7 +3,7 @@
 Welcome to my shared Kometa script.
 
 This is a basic (somewhat redacted) copy of my config for kometa daily runs.
-If you would like to implement this as your own config just remove .template from the config.yaml.template and fill in the information required at the bottom, this config uses information from MDBList, TMDB, and adds Charts for TMDB, Trakt, AniList, and MyAnimeList (so logins/API connections will be needed where appropriate)
+If you would like to implement this as your own config just remove .template from the config.yaml.template and fill in the information required at the bottom, this config uses information from MDBList, TMDB, and adds Charts for TMDB, AniList, and MyAnimeList (so logins/API connections will be needed where appropriate)
 
 In addition to this script I also keep an assets directory that has 4 sub-directories:
 - Anime
