@@ -134,7 +134,7 @@ collections:
     collection_order: release.desc
     summary: Shows produced by Lucasfilm Ltd.
   Marvel Animated Universe:
-    mdblist_list: https://mdblist.com/lists/mmozeiko/marvel-animated-universe
+    mdblist_list: https://mdblist.com/lists/jberio82/marvel-animation-tv
     collection_order: release
     sort_title: "!040_Marvel Animated Universe"
   Middle-Earth:
